@@ -22,7 +22,7 @@
 		== View Resolver : Controller에서 반환된 문자열 앞/뒤에 접두사(prefix), 접미사(suffix)를 추가하여 만들어진 경로의 JSP로 
 		요청을 위임(foward)
 		
-		단, 반환된 문자열의 시작인 redirect: 구문이면 재요청(redirect) 진행
+		단, 반환된 문자열의 시작이 redirect: 구문이면 재요청(redirect) 진행
 		redirect:/ 최상위로 재요청
 	 -->
 	<beans:bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
