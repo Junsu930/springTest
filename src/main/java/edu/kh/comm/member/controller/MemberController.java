@@ -1,5 +1,8 @@
 package edu.kh.comm.member.controller;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -14,9 +17,12 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.SessionAttributes;
 import org.springframework.web.bind.support.SessionStatus;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
+
+import com.google.gson.Gson;
 
 import edu.kh.comm.member.model.service.MemberService;
 import edu.kh.comm.member.model.vo.Member;
@@ -220,5 +226,60 @@ public class MemberController {
 		
 		return "member/signUp"; 
 	}
+	
+	// 이메일 중복 검사
+	@GetMapping("/emailDupCheck")
+	@ResponseBody // ajax 응답 시 사용
+	//public String emailDupCheck(@RequestParam("memberEmail") String memberEmail) { // 파라미터 key값과 저장하려는 변수 명이 같으면 생략 가능
+	public int emailDupCheck( String memberEmail ) {
+		int result = service.emailDupCheck(memberEmail);
+		
+		// 컨트롤러에서 반환되는 값은 forward 또는 redirect를 위한 경로인 경우가 일반적
+		// -> 반환되는 값은 경로로 인식됨
+		
+		// -> 이를 해결하기 위한 어노테이션 @ResponseBody가 존재함 
+		
+		// @ResponseBody : 반환되는 값을 응답은 몸통(body)에 추가하여 이전 주소로 돌아감
+		// -> 컨트롤러에서 반환되는 값이 경로가 아닌 "값 자체"로 인식됨
+		
+		
+		return result;
+	}
+	
+	@GetMapping("/nicknameDupCheck")
+	@ResponseBody
+	public int nickDupCheck(String memberNickname) {
+		return service.nickDupCheck(memberNickname);
+	}
+	
+	@PostMapping("/signUp")
+	public String signUp(@ModelAttribute Member inputMember, RedirectAttributes rs) {
+	
+		System.out.println(inputMember.toString());
+		int result = service.signUp(inputMember);
+		
+		if(result > 0) {
+			rs.addFlashAttribute("msg", "회원가입이 완료되었습니다.");
+			return "redirect:/";
+
+		}
+		else {
+			rs.addFlashAttribute("msg", "회원가입이 실패하였습니다.");
+			return "redirect:/";
+		}
+	}
+	
+	@PostMapping("/selectOne")
+	@ResponseBody
+	public Member selectOne(String memberEmail) {
+		return service.selectOne(memberEmail);
+	}
+	
+	@RequestMapping("/selectAll")
+	@ResponseBody
+	public String selectAll() {
+		return new Gson().toJson(service.selectAll());
+	}
+	
 	
 }

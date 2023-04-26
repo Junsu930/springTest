@@ -27,3 +27,9 @@
         // 일치하는 속성이 있으면 출력
     </script>
 </c:if> 
+<c:if test="${!empty msg }">
+    <script type="text/javascript"> 
+		var msg = '${msg}'; 
+			alert(msg); 
+	</script>
+</c:if>

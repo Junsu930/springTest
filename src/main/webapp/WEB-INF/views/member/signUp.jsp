@@ -14,6 +14,7 @@
      <link rel="stylesheet" href="../resources/css/signUp-style.css">
  
      <script src="https://kit.fontawesome.com/a2e8ca0ae3.js" crossorigin="anonymous"></script>
+     <script src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
  </head>
  <body>
      <main>
@@ -80,12 +81,12 @@
                  </label>
                  
                  <div class="signUp-input-area">
-                     <input type="text" id="memberPw" name="memberPw"
+                     <input type="password" id="memberPw" name="memberPw"
                              placeholder="비밀번호" maxlength="30">
                  </div>
  
                  <div class="signUp-input-area">
-                     <input type="text" id="memberPwConfirm"
+                     <input type="password" id="memberPwConfirm"
                              placeholder="비밀번호 확인" maxlength="30">
                  </div>
  
@@ -125,18 +126,18 @@
                  </label>
                  
                  <div class="signUp-input-area">
-                     <input type="text" id="memberAddress" name="memberAddress"
+                     <input type="text" id="sample6_postcode" name="memberAddress"
                              placeholder="우편번호" maxlength="6">
                      
-                     <button type="button">검색</button>
+                     <button type="button" onclick="sample6_execDaumPostcode()">검색</button>
                  </div>
  
                  <div class="signUp-input-area">
-                     <input type="text" name="memberAddress" placeholder="도로명주소">
+                     <input type="text" name="memberAddress" id="sample6_address" placeholder="도로명주소">
                  </div>
  
                  <div class="signUp-input-area">
-                     <input type="text" name="memberAddress" placeholder="상세주소">
+                     <input type="text" name="memberAddress" id="sample6_detailAddress" placeholder="상세주소">
                  </div>
  
                  <button type="submit" id="signUp-btn">가입하기</button>
@@ -147,6 +148,7 @@
  
  
      </main>
+     
  
     <!-- footer include -->
     <jsp:include page="/WEB-INF/views/common/footer.jsp" />
@@ -157,6 +159,7 @@
 
     <!-- signUp.js 연결 -->
     <script src="${contextPath}/resources/js/member/signUp.js"></script>
+
 
  </body>
  </html>
