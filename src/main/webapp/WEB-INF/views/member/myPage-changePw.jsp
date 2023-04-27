@@ -69,6 +69,11 @@
         </section>
 
     </main>
+    <c:if test="${!empty msg}">
+    <script>
+    	alert(${msg});
+    </script>
+    </c:if>
 
 	<jsp:include page="/WEB-INF/views/common/footer.jsp"/>
 

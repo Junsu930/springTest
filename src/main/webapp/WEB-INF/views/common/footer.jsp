@@ -33,3 +33,9 @@
 			alert(msg); 
 	</script>
 </c:if>
+<c:if test="${!empty secessionMsg }">
+ <script>
+ 	var msg = '${secessionMsg}';
+ 	alert(msg);
+ </script>
+</c:if>

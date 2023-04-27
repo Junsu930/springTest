@@ -96,6 +96,12 @@
         </section>
 
     </main>
+    
+    <c:if test="${!empty secessionMsg }">
+	    <script>
+	    	alert("${secessionMsg}");
+	    </script>
+    </c:if>
 
 	<jsp:include page="/WEB-INF/views/common/footer.jsp"/>
 

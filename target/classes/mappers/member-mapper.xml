@@ -134,11 +134,11 @@
 	</insert>
 	
 	<select id="selectOne" parameterType="string" resultMap="member_rm">
-		SELECT * FROM MEMBER_S WHERE MEMBER_EMAIL = #{memberEmail}
+		SELECT * FROM MEMBER_S WHERE MEMBER_EMAIL = #{memberEmail} AND SECESSION_FL='N'
 	</select>
 	
 	<select id="selectAll" resultMap="member_rm">
-		SELECT MEMBER_NO, MEMBER_EMAIL, MEMBER_NICK FROM MEMBER_S
+		SELECT MEMBER_NO, MEMBER_EMAIL, MEMBER_NICK FROM MEMBER_S WHERE SECESSION_FL='N'
 	</select>
 	
 </mapper>

@@ -16,8 +16,7 @@
     <link rel="stylesheet" href="${contextPath}/resources/css/main-style.css">
 
     <link rel="stylesheet" href="${contextPath}/resources/css/myPage-style.css">
-
-
+	<script src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js">	
     <script src="https://kit.fontawesome.com/a2e8ca0ae3.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -47,12 +46,12 @@
 
                     <div class="myPage-row">
                         <label>닉네임</label>
-                        <input type="text" name="memberNickname"  id="memberNickname"  value="${loginMember.memberNickname}" maxlength="10">              
+                        <input type="text" name="updateNickname"  id="memberNickname"  value="${loginMember.memberNickname}" maxlength="10">              
                     </div>
 
                     <div class="myPage-row">
                         <label>전화번호</label>
-                        <input type="text" name="memberTel"  id="memberTel" value="${loginMember.memberTel}" maxlength="11">
+                        <input type="text" name="updateTel"  id="memberTel" value="${loginMember.memberTel}" maxlength="11">
                     </div>
                     
                     
@@ -60,23 +59,22 @@
                     <!-- 주소 -->			<!--  fn:split(문자열, '구분자')  -->
 					<c:set var="addr"  value="${fn:split(loginMember.memberAddress, ',,')}"  />                    
                     
-                    
                     <div class="myPage-row info-title">
                         <span>주소</span>
                     </div>
 
                     <div class="myPage-row info-address">
-                        <input type="text" name="memberAddress"  value="${addr[0]}"  maxlength="6">
+                        <input type="text" name="updateAddress"  id="sample6_postcode" value="${addr[0]}"  maxlength="6">
 
-                        <button type="button" id="info-address-btn">검색</button>
+                        <button type="button" id="info-address-btn" onclick="sample6_execDaumPostcode()">검색</button>
                     </div>
 
                     <div class="myPage-row info-address">
-                        <input type="text" name="memberAddress" value="${addr[1]}">
+                        <input type="text" name="updateAddress" id="sample6_address" value="${addr[1]}">
                     </div>
                     
                     <div class="myPage-row info-address">
-                        <input type="text" name="memberAddress" value="${addr[2]}">
+                        <input type="text" name="updateAddress" id="sample6_detailAddress" value="${addr[2]}">
                     </div>
 
                     <button id="info-update-btn">수정하기</button>
@@ -90,6 +88,10 @@
 
     <!-- myPage.js 추가 -->
     <script src="${contextPath}/resources/js/member/myPage.js"></script>
-
+	<c:if test="${!empty updateMsg }">
+		<script>
+			alert("${updateMsg}");
+		</script>
+	</c:if>
 </body>
 </html>
