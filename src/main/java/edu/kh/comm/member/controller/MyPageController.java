@@ -3,7 +3,6 @@ package edu.kh.comm.member.controller;
 
 import java.util.Map;
 
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,8 +14,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.SessionAttributes;
 import org.springframework.web.bind.support.SessionStatus;
+import org.springframework.web.multipart.MultipartFile;
+import org.springframework.web.multipart.MultipartHttpServletRequest;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
+import edu.kh.comm.common.util.FileUtil;
 import edu.kh.comm.member.model.service.MyPageService;
 import edu.kh.comm.member.model.vo.Member;
 
@@ -164,6 +166,25 @@ public class MyPageController {
 			
 			return "redirect:/member/myPage/info";
 		}
+	}
+	
+	@PostMapping("/profile")
+	public String profile(@ModelAttribute("loginMember") Member loginMember
+			,  MultipartHttpServletRequest mpRequest, FileUtil fileUtil) throws Exception
+			 {
+		
+		
+		String memberImg = fileUtil.updateImg(mpRequest);
+
+		
+				
+		return "/member/infoView";
+		
+		
+		int result = 0;
+		
+	
+		return "redirect:/member/myPage/profile";
 	}
 }
 

@@ -63,6 +63,10 @@ public class MemberDAO {
 	public int signUp(Member inputMember) {
 		int result = sqlSession.insert("memberMapper.signUp", inputMember);
 		
+		// INSERT, UPDATE, DELETE를 수행하기 위한 메서드 존재함
+		
+		// * insert() / update() /delete() 메서드 반환값은 int 고정
+		// -> resultType 생략 가능. 묵시적으로 _int
 		
 		return result;
 	}

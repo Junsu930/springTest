@@ -251,15 +251,14 @@ public class MemberController {
 	}
 	
 	@PostMapping("/signUp")
-	public String signUp(@ModelAttribute Member inputMember, RedirectAttributes rs, HttpServletRequest req) {
+	public String signUp(@ModelAttribute Member inputMember, 
+			RedirectAttributes rs, String[] memberAddress) {
 	
-		String[] addr = req.getParameterValues("memberAddress");
 		
-		if(addr[0].equals("")) {
-			inputMember.setMemberAddress(null);
-		}else {
-			String address = addr[0] +",, " + addr[1] + ",, " + addr[2];
-			inputMember.setMemberAddress(address);
+		inputMember.setMemberAddress(String.join(",,", memberAddress));
+		
+		if(inputMember.getMemberAddress().equals(",,,,")||inputMember.getMemberAddress().equals(",,,")) {
+			inputMember.setMemberAddress(null); // null로 변환
 		}
 		
 		int result = service.signUp(inputMember);
@@ -271,7 +270,7 @@ public class MemberController {
 		}
 		else {
 			rs.addFlashAttribute("msg", "회원가입이 실패하였습니다.");
-			return "redirect:/";
+			return "redirect:/member/signUp";
 		}
 	}
 	
