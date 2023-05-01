@@ -21,4 +21,8 @@
 	<select id="checkNick" parameterType="string" resultType="_int">
 		SELECT COUNT(*) FROM MEMBER_S WHERE MEMBER_NICK = #{newNick}
 	</select>
+	
+	<update id="updateProfile">
+		UPDATE MEMBER_S SET PROFILE_IMG = #{profileImage} WHERE MEMBER_NO = ${memberNo}
+	</update>
 </mapper>

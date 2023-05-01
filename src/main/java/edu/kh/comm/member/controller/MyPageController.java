@@ -1,7 +1,10 @@
 package edu.kh.comm.member.controller;
 
 
+import java.io.IOException;
 import java.util.Map;
+
+import javax.servlet.http.HttpServletRequest;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -15,10 +18,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.SessionAttributes;
 import org.springframework.web.bind.support.SessionStatus;
 import org.springframework.web.multipart.MultipartFile;
-import org.springframework.web.multipart.MultipartHttpServletRequest;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
-import edu.kh.comm.common.util.FileUtil;
 import edu.kh.comm.member.model.service.MyPageService;
 import edu.kh.comm.member.model.vo.Member;
 
@@ -169,22 +170,42 @@ public class MyPageController {
 	}
 	
 	@PostMapping("/profile")
-	public String profile(@ModelAttribute("loginMember") Member loginMember
-			,  MultipartHttpServletRequest mpRequest, FileUtil fileUtil) throws Exception
-			 {
-		
-		
-		String memberImg = fileUtil.updateImg(mpRequest);
-
-		
-				
-		return "/member/infoView";
-		
-		
-		int result = 0;
+	public String updateProfile(@ModelAttribute("loginMember") Member loginMember
+			, @RequestParam("uploadImage") MultipartFile uploadImage,
+			@RequestParam Map<String, Object> map, HttpServletRequest req /*파일 저장 탐색용*/,
+			RedirectAttributes ra) throws IOException { 
 		
 	
-		return "redirect:/member/myPage/profile";
+		// 경로 작성하기
+		
+		// 1)웹 접근 경로 (/comm/resources/images/memberProfile/)
+		String webPath = "/resources/images/memberProfile/";
+		
+		// 2)서버 저장 폴더 경로 
+		// C:\workspace\7_framework\comm\src\main\webapp\resources\images\memberProfile
+		String folderPath = req.getSession().getServletContext().getRealPath(webPath);
+		
+		//  경로 2개, 이미지, delete, 회원번호 map에 담기
+		map.put("webPath", webPath);
+		map.put("folderPath", folderPath);
+		map.put("uploadImage", uploadImage);
+		map.put("memberNo", loginMember.getMemberNo());
+		
+		int result = service.updateProfile(map);
+		
+		String message = null;
+		
+		if(result > 0) {
+			message = "프로필 이미지가 변경되었습니다.";
+			// DB - 세션 동기화 
+			loginMember.setProfileImage((String)map.get("profileImage"));
+		}else {
+			message = "프로필 이미지 변경이 실패하였습니다";
+		}
+		
+		ra.addFlashAttribute("message", message);
+		
+		return "redirect:profile";
 	}
 }
 

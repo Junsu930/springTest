@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-    
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <header>
 
 	<!-- 클릭 시 메인페이지로 이동하는 로고 -->
@@ -25,11 +25,9 @@
 	    	
 	    	 --%>
 	     
-	        <img src="${contextPath}/resources/images/logo.jpg" id="home-logo">
-	      	
+	        <img src="${contextPath}/resources/images/logo.jpg" id="home-logo">  	
 	    </a>
 	</section>
-	
 	<section>
 	    <article class="search-area">
 	        <!-- form 내부 input 태그 값을 서버 또는 페이지로 전달 -->
@@ -59,15 +57,32 @@
 	/member/login  ?memberEmail=user01&memberPw=1234
  -->
 
+<!-- 
+	요청(Request)-> -> Filter -> Dispatcher Servlet -> Interceptor -> Controller
+	
+	Filter 
+	Dispatcher Servlet 전에 처리를 해준다. @어노테이션 사용 불가. 응답을 받아 후처리 불가
+	 
+	Interceptor
+	컨트롤러 가기 전, 간 후에 가로채서 전처리/후처리를 해준다. 
+	
+	전처리(preHandle)
+	후처리(postHandle)
+ -->
+
 <nav>
     <ul>
+    <%--
         <li><a href="${contextPath}/board/list?type=1">공지사항</a></li>
 
         <li><a href="${contextPath}/board/list?type=2">자유 게시판</a></li>
 
         <li><a href="${contextPath}/board/list?type=3">질문 게시판</a></li>
 
-
+	--%>
+		<c:forEach var="boardType" items="${boardTypeList}">
+			<li><a href="${contextPath}/board/list/${boardType.boardCode}">${boardType.boardName}</a></li>
+		</c:forEach>
         <li><a href="#">FAQ</a></li>
         <li><a href="#">1:1문의</a></li>
     </ul>

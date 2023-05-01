@@ -1,5 +1,7 @@
 package edu.kh.comm.member.model.dao;
 
+import java.util.Map;
+
 import org.mybatis.spring.SqlSessionTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
@@ -32,6 +34,15 @@ public class MyPageDAO {
 
 	public int checkNick(String newNick) {
 		return sqlSession.selectOne("myPageMapper.checkNick", newNick);
+	}
+
+	
+	/** 프로필 이미지 수정
+	 * @param map
+	 * @return
+	 */
+	public int updateProfile(Map<String, Object> map) {
+		return sqlSession.update("myPageMapper.updateProfile", map);
 	}
 
 }
