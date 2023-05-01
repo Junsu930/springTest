@@ -2,9 +2,9 @@ package edu.kh.comm.board.controller;
 
 import java.util.Map;
 
-import org.apache.maven.model.Model;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -28,13 +28,19 @@ public class BoardController {
 	@GetMapping("/list/{boardCode}")
 	public String boardList(@PathVariable("boardCode") int boardCode,
 							@RequestParam(value="cp", required=false, defaultValue="1") int cp,
-							Model model,
-							@RequestParam Map<String, Object> paramMap) {
+							Model model
+							/*@RequestParam Map<String, Object> paramMap*/) {
 		
 		// 게시글 목록 조회 서비스 호출
-		// 1) 게시판 이름 조회
+		// 1) 게시판 이름 조회 -> 인터셉터 application에 올려둔 boardTypeList 쓸 수 있다
 		// 2) 페이지네이션 객체 생성(listCount)
 		// 3) 게시글 목록 조회
+		
+		Map<String,Object> map = null;
+		
+		map = service.selectBoardList(cp, boardCode);
+		map.put("boardCode", boardCode);
+		model.addAttribute("map", map);
 		
 		return "board/boardList";
 	}

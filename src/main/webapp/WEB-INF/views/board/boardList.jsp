@@ -2,10 +2,15 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"  %>
 
 <!-- map에 저장된 값을 각각 변수에 저장 -->
-<c:set var="boardName" value="${map.boardName}" />
+<c:forEach var="boardType" items="${boardTypeList}">
+	<c:if test="${map.boardCode == boardType.boardCode}">
+		<c:set var="boardNames" value="${boardType.boardName}"/>
+	</c:if>
+</c:forEach>
+
+<!-- <c:set var="boardName" value="${map.boardName}" /> -->
 <c:set var="pagination" value="${map.pagination}" />
 <c:set var="boardList" value="${map.boardList}" />
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -13,17 +18,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>${boardName}</title>
+    <title>${boardNames}</title>
 
     <link rel="stylesheet" href="${contextPath}/resources/css/main-style.css">
     <link rel="stylesheet" href="${contextPath}/resources/css/boardList-style.css">
-
     <script src="https://kit.fontawesome.com/a2e8ca0ae3.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <main>
         <jsp:include page="/WEB-INF/views/common/header.jsp"/>
-
         <%-- 검색을 진행한 경우 key, query를 쿼리스트링 형태로 저장한 변수 생성 --%>
         <c:if test="${!empty param.key}">
             <c:set var="sURL" value="&key=${param.key}&query=${param.query}" />
@@ -31,7 +34,7 @@
 
         <section class="board-list">
 
-            <h1 class="board-name">${boardName}</h1>
+            <h1 class="board-name">${boardNames}</h1>
 
             <c:if test="${!empty param.key}">
                 <h3 style="margin-left:30px;"> "${param.query}" 검색 결과  </h3>
@@ -145,8 +148,8 @@
 
                 <select name="key" id="search-key">
                     <option value="t">제목</option>
-                  op  <option value="c">내용</option>
-                    <option value="tc">제목+내용</tion>
+                   	<option value="c">내용</option>
+                    <option value="tc">제목+내용</option>
                     <option value="w">작성자</option>
                 </select>
 
