@@ -79,7 +79,7 @@
 
         <li><a href="${contextPath}/board/list?type=3">질문 게시판</a></li>
 
-	--%>
+	 --%>
 		<c:forEach var="boardType" items="${boardTypeList}">
 			<li><a href="${contextPath}/board/list/${boardType.boardCode}">${boardType.boardName}</a></li>
 		</c:forEach>

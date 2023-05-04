@@ -19,7 +19,7 @@
     <main>
         <jsp:include page="/WEB-INF/views/common/header.jsp"/>
 
-        <form action="write" enctype="multipart/form-data" method="POST" class="board-write"
+        <form action="../write" enctype="multipart/form-data" method="POST" class="board-write"
             onsubmit="return writeValidate()">
 
             <!-- 제목 -->

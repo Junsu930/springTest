@@ -4,7 +4,7 @@
 <!-- map에 저장된 값을 각각 변수에 저장 -->
 <c:forEach var="boardType" items="${boardTypeList}">
 	<c:if test="${map.boardCode == boardType.boardCode}">
-		<c:set var="boardNames" value="${boardType.boardName}"/>
+		<c:set var="boardName" value="${boardType.boardName}"/>
 	</c:if>
 </c:forEach>
 
@@ -18,7 +18,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>${boardNames}</title>
+    <title>${boardName}</title>
 
     <link rel="stylesheet" href="${contextPath}/resources/css/main-style.css">
     <link rel="stylesheet" href="${contextPath}/resources/css/boardList-style.css">
@@ -34,7 +34,7 @@
 
         <section class="board-list">
 
-            <h1 class="board-name">${boardNames}</h1>
+            <h1 class="board-name">${boardName}</h1>
 
             <c:if test="${!empty param.key}">
                 <h3 style="margin-left:30px;"> "${param.query}" 검색 결과  </h3>
@@ -77,7 +77,8 @@
                                                 <img class="list-thumbnail" src="${contextPath}${board.thumbnail}">
                                             </c:if>  
 
-                                            <a href="detail?no=${board.boardNo}&cp=${pagination.currentPage}&type=${param.type}${sURL}">${board.boardTitle}</a>                           
+                                        <!-- <a href="detail?no=${board.boardNo}&cp=${pagination.currentPage}&type=${param.type}${sURL}">${board.boardTitle}</a>  --> 
+                                            <a href="../detail/${boardCode}/${board.boardNo}?cp=${pagination.currentPage}${sURL}">${board.boardTitle}</a>                          
                                         </td>
                                         <td>${board.memberNickname}</td>
                                         <td>${board.createDate}</td>
@@ -95,8 +96,9 @@
             <div class="btn-area">
 
                 <c:if test="${!empty loginMember}">
-                    <!-- /community/board/write -->
-                    <button id="insertBtn" onclick="location.href='write?mode=insert&type=${param.type}&cp=${param.cp}'">글쓰기</button>                     
+                    <!-- /comm/board/write/${boardCode}&cp=1 -->
+                    <!-- /comm/board/list/3 -->
+                    <button id="insertBtn" onclick="location.href='../write/${boardCode}?mode=insert&cp=${pagination.currentPage}'">글쓰기</button>                     
                 </c:if>
 
             </div>
@@ -105,7 +107,7 @@
             <div class="pagination-area">
 
                 <!-- 페이지네이션 a태그에 사용될 공통 주소를 저장한 변수 선언 -->
-                <c:set var="url" value="list?type=${param.type}&cp="/>
+                <c:set var="url" value="${boardCode}?cp="/>
 
 
                 <ul class="pagination">
@@ -143,8 +145,8 @@
 
             <!-- /board/list?type=1&cp=10 &key=t&query=안녕 -->
 
-            <form action="list" method="get" id="boardSearch" onsubmit="return searchValidate()">
-                <input type="hidden" name="type" value="${param.type}">
+            <form action="${boardCode}" method="get" id="boardSearch" onsubmit="return searchValidate()">
+                <!-- <input type="hidden" name="type" value="${param.type}">  -->
 
                 <select name="key" id="search-key">
                     <option value="t">제목</option>
