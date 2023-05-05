@@ -46,4 +46,10 @@ public interface BoardService{
 	int insertBoard(Map<String, Object> map, Member loginMember);
 
 	int insertImage(Map<String, Object> map) throws Exception;
+
+	int updateBoard(Map<String, Object> map, Member loginMember);
+
+	int deleteImage(Map<String, Object> map);
+
+	int deleteBoard(int boardCode, int boardNo);
 }

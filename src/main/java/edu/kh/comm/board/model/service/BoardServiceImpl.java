@@ -141,5 +141,47 @@ public class BoardServiceImpl implements BoardService {
 		return result;
 	}
 
+	@Override
+	public int updateBoard(Map<String, Object> map, Member loginMember) {
+			int result = 0;
+	
+			
+			map.put("loginMember", loginMember);
+
+			
+			result = dao.updateBoard(map);
+	
+			return result;
+	}
+
+	@Override
+	public int deleteImage(Map<String, Object> map) {
+		
+		int result = 0;
+		
+		String deleteImage = (String)map.get("deleteList");
+		
+		String[] deleteList = deleteImage.split(",");
+		
+		for(String num : deleteList) {
+			map.put("deleteNum", num);
+			
+			result = dao.deleteImage(map);
+		}
+		
+		return result;
+	}
+
+	@Override
+	public int deleteBoard(int boardCode, int boardNo) {
+		
+		Map<String,Object> map = new HashMap<>();
+		
+		map.put("boardCode", boardCode);
+		map.put("boardNo", boardNo);
+		
+		return dao.deleteBoard(map);
+	}
+
 
 }

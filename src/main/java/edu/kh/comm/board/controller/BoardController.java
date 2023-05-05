@@ -353,23 +353,63 @@ public class BoardController {
 			
 			System.out.println("결과값" + result);
 			
-			if(result > 0) {
+			if(result > 0 && fileList.size() != 0) {
+				System.out.println("파일이 있다잉");
+				
 				
 				try {
 					int fileResult = service.insertImage(map);
+					System.out.println("파일 삽입 결과 : " +fileResult);
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
 			}
 			
 		}else { // update일 경우
+			if(map.get("deleteList") != null || !map.get("deleteList").equals("")) {// 이미지 수정이 있을 경우 
+				
+				int deleteResult = service.deleteImage(map);
+				System.out.println("삭제됐슝"+ deleteResult);
+						
+				
+			}
+			Member loginMember = (Member)session.getAttribute("loginMember");
+			int result = service.updateBoard(map, loginMember);
 			
+			System.out.println("결과값" + result);
+			
+			if(result > 0 && fileList.size() != 0) {
+				
+				try {
+					int fileResult = service.insertImage(map);
+					System.out.println("파일 삽입 결과 : " +fileResult);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+			
+		}
+	
+		return "redirect:../board/list/" + map.get("type");
+	}
+	
+	@GetMapping("delete/{boardCode}/{boardNo}")
+	public String deleteBoard(@PathVariable("boardCode") int boardCode, 
+			@PathVariable("boardNo") int boardNo, HttpServletRequest req){
 		
+		int result = service.deleteBoard(boardCode, boardNo);
+		String referer = req.getHeader("Referer");
+		
+		if(result>0) {
+			return "redirect:/board/list/" + boardCode;
 			
+		}else {
+			return "redirect:"+referer;
 		}
 		
 		
-		return "redirect:/";
+		
 	}
 	
 }
+

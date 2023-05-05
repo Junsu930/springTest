@@ -126,4 +126,20 @@ public class BoardDAO {
 		
 		return sqlSession.insert("boardMapper.insertImage", map);
 	}
+
+	/** 내용 수정
+	 * @param map
+	 * @return
+	 */
+	public int updateBoard(Map<String, Object> map) {
+		return sqlSession.update("boardMapper.updateBoard", map);
+	}
+
+	public int deleteImage(Map<String, Object> map) {
+		return sqlSession.delete("boardMapper.deleteImage", map);
+	}
+
+	public int deleteBoard(Map<String, Object> map) {
+		return sqlSession.update("boardMapper.deleteBoard", map);
+	}
 }

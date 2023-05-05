@@ -135,7 +135,7 @@
 
 
                     <button id="updateBtn" onclick="location.href='../../write/${boardCode}?mode=update&cp=${cp}&no=${detail.boardNo}'">수정</button>                       
-                    <button id="deleteBtn">삭제</button>
+	                <button type="button" id="deleteBtn">삭제</button>
                 </c:if>
 
                 <!-- onclick="history.back();"  뒤로가기 
@@ -179,6 +179,8 @@
         const loginMemberNo = "${loginMember.memberNo}";
         // -> 로그인 O  : "10";
         // -> 로그인 X  : "";  (빈문자열)
+        const boardCode = "${boardCode}";
+        
 
     </script>
 
