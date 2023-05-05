@@ -4,8 +4,8 @@ import java.util.List;
 import java.util.Map;
 
 import edu.kh.comm.board.model.vo.BoardDetail;
-import edu.kh.comm.board.model.vo.BoardImage;
 import edu.kh.comm.board.model.vo.BoardType;
+import edu.kh.comm.member.model.vo.Member;
 
 public interface BoardService{
 
@@ -43,5 +43,7 @@ public interface BoardService{
 	 */
 	Map<String, Object> searchBoardList(Map<String, Object> paramMap);
 
-	int insertBoard(Map<String, Object> map);
+	int insertBoard(Map<String, Object> map, Member loginMember);
+
+	int insertImage(Map<String, Object> map) throws Exception;
 }

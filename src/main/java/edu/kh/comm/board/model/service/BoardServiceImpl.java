@@ -1,5 +1,6 @@
 package edu.kh.comm.board.model.service;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -15,6 +16,7 @@ import edu.kh.comm.board.model.vo.BoardDetail;
 import edu.kh.comm.board.model.vo.BoardType;
 import edu.kh.comm.board.model.vo.Pagination;
 import edu.kh.comm.common.Util;
+import edu.kh.comm.member.model.vo.Member;
 
 @Service
 public class BoardServiceImpl implements BoardService {
@@ -95,26 +97,46 @@ public class BoardServiceImpl implements BoardService {
 	}
 
 	@Override
-	public int insertBoard(Map<String, Object> map) {
+	public int insertBoard(Map<String, Object> map, Member loginMember) {
 		
 		
 		int result = 0;
 
-		// 이미지 파일 가져오기
-		List<MultipartFile> ImageList = (ArrayList<MultipartFile>)map.get("uploadImage");
-		List<String> newImages = new ArrayList<>();
 		
-		for(MultipartFile files : ImageList) {
-			
-			String renameImage =  Util.fileRename(files.getOriginalFilename()); // 변경된 파일명 저장
-			newImages.add(map.get("webPath") + renameImage);
-		}
-		
-		// 새로운 이름으로 값 저장
-		map.put("imageFiles",  newImages);
+		map.put("loginMember", loginMember);
 		
 		System.out.println("service단에서 image리스트" + map.get("imageFiles"));
 		
+		result = dao.insertBoard(map);
+
+		return result;
+	}
+
+	/** 이미지 db저장 메서드
+	 *
+	 */
+	@Override
+	public int insertImage(Map<String, Object> map) throws Exception{
+		int result = 0;
+		// 이미지 파일 가져오기
+		List<MultipartFile> ImageList = (ArrayList<MultipartFile>)map.get("uploadImage");
+		
+		System.out.println(ImageList);
+		
+			
+		for(MultipartFile files : ImageList) {
+			
+			String renameImage =  Util.fileRename(files.getOriginalFilename()); // 변경된 파일명 저장
+			
+			map.put("rename",  (map.get("webPath") + renameImage));
+			map.put("fileName", renameImage);
+			map.put("field", files.getName());
+			result = dao.insertImage(map);
+			
+			if(result>0) {
+				files.transferTo(new File(map.get("folderPath") + renameImage));
+			}
+		}
 
 		return result;
 	}

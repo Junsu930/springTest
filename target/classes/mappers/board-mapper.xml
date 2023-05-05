@@ -203,10 +203,14 @@
 				</when>
 			</choose>			
 		</if>
-		
-		
 		ORDER BY BOARD_NO DESC
-		
 	</select>
-
+	
+	<insert id="insertBoard">
+		INSERT INTO BOARD VALUES(SEQ_BOARD_NO.NEXTVAL, #{boardTitle}, #{boardContent}, DEFAULT, DEFAULT, DEFAULT, DEFAULT, #{loginMember.memberNo},#{type} )
+	</insert>
+	
+	<insert id="insertImage">
+		INSERT INTO BOARD_IMG VALUES(SEQ_IMG_NO.NEXTVAL, #{rename}, #{fileName}, #{field}, SEQ_BOARD_NO.CURRVAL)
+	</insert>
 </mapper>

@@ -307,6 +307,8 @@ public class BoardController {
 			
 			
 		}
+		
+		model.addAttribute("boardCode", boardCode);
 		return "board/boardWriteForm";
 	}
 	
@@ -314,7 +316,8 @@ public class BoardController {
 	@PostMapping("/write")
 	public String write(@RequestParam Map<String, Object> map, @RequestParam("0") MultipartFile image0,
 			@RequestParam("1") MultipartFile image1, @RequestParam("2") MultipartFile image2,
-			@RequestParam("3") MultipartFile image3, @RequestParam("4") MultipartFile image4, HttpServletRequest req) {
+			@RequestParam("3") MultipartFile image3, @RequestParam("4") MultipartFile image4, HttpServletRequest req,
+			HttpSession session) {
 		
 		List<MultipartFile> fileList = new ArrayList<>();
 		MultipartFile[] filedummy = {image0, image1, image2, image3, image4};
@@ -345,10 +348,23 @@ public class BoardController {
 		
 		if(map.get("mode").equals("insert")) { // insert일 경우
 			
-			int result = service.insertBoard(map);
-		
+			Member loginMember = (Member)session.getAttribute("loginMember");
+			int result = service.insertBoard(map, loginMember);
+			
+			System.out.println("결과값" + result);
+			
+			if(result > 0) {
+				
+				try {
+					int fileResult = service.insertImage(map);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
 			
 		}else { // update일 경우
+			
+		
 			
 		}
 		

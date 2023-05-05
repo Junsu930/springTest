@@ -1,5 +1,7 @@
 package edu.kh.comm.board.model.dao;
 
+import java.io.File;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
@@ -7,12 +9,14 @@ import org.apache.ibatis.session.RowBounds;
 import org.mybatis.spring.SqlSessionTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
+import org.springframework.web.multipart.MultipartFile;
 
 import edu.kh.comm.board.model.vo.Board;
 import edu.kh.comm.board.model.vo.BoardDetail;
 import edu.kh.comm.board.model.vo.BoardImage;
 import edu.kh.comm.board.model.vo.BoardType;
 import edu.kh.comm.board.model.vo.Pagination;
+import edu.kh.comm.common.Util;
 
 @Repository
 public class BoardDAO {
@@ -101,5 +105,25 @@ public class BoardDAO {
 		RowBounds rowBounds = new RowBounds(offset, pagination.getLimit());
 		
 		return sqlSession.selectList("boardMapper.searchBoardList", paramMap, rowBounds);
+	}
+
+	/** 글 등록 
+	 * @param map
+	 * @return result
+	 */
+	public int insertBoard(Map<String, Object> map) {
+		
+		
+		return sqlSession.insert("boardMapper.insertBoard", map);
+	}
+
+	/** 이미지 등록
+	 * @param map
+	 * @return
+	 */
+	public int insertImage(Map<String, Object> map) {
+		
+		
+		return sqlSession.insert("boardMapper.insertImage", map);
 	}
 }

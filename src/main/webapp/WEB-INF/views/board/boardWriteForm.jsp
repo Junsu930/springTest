@@ -138,14 +138,14 @@
 
 
             </div>
-
+			
 
             <!-- 숨겨진 값(hidden) -->
             <!-- 동작 구분 -->
             <input type="hidden" name="mode" value="${param.mode}">
 
             <!-- 게시판 구분 -->
-            <input type="hidden" name="type" value="${param.type}">
+            <input type="hidden" name="type" value="${boardCode}">
 
             <!-- 게시글 번호 -->
             <input type="hidden" name="no" value="${param.no}">
