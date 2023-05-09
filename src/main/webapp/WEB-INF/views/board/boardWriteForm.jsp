@@ -21,7 +21,7 @@
 
 		<%-- /board/write/1 (get) --%>
 		<%-- /board/write/1 (post) --%>
-        <form action="${boardCode}/write" enctype="multipart/form-data" method="POST" class="board-write"
+        <form action="${boardCode}" enctype="multipart/form-data" method="POST" class="board-write"
             onsubmit="return writeValidate()">
 
             <!-- 제목 -->
