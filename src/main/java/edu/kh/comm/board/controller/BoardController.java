@@ -1,6 +1,5 @@
 package edu.kh.comm.board.controller;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
@@ -14,10 +13,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.SessionAttributes;
 import org.springframework.web.multipart.MultipartFile;
 
 import edu.kh.comm.board.model.service.BoardService;
@@ -27,6 +28,7 @@ import edu.kh.comm.member.model.vo.Member;
 
 @Controller
 @RequestMapping("/board")
+@SessionAttributes({"loginMember"})
 public class BoardController {
 	
 	@Autowired
@@ -312,6 +314,33 @@ public class BoardController {
 		return "board/boardWriteForm";
 	}
 	
+	// 게시글 작성 (삽입/수정)
+	@PostMapping("/write/{boardCode}")
+	public String boardWrite( BoardDetail detail,// boardTitle, boardContent, boardNo,  
+			@PathVariable("boardCode") int boardCode
+			, String mode
+			, @RequestParam(value="images", required=false) List<MultipartFile> imageList // 업로드 파일 리스트) 
+			, @ModelAttribute("loginMember") Member loginMember
+			, @RequestParam(value="deleteList", required=false) String deleteList
+			, @RequestParam(value="cp", required=false) int cp
+			, HttpServletRequest req){
+		
+		// 1) 로그인한 회원 번호 얻어와서 detail에 세팅
+		detail.setMemberNo(loginMember.getMemberNo());
+		
+		// 2) 이미지 저장 경로 얻어오기 (webPath, folderPath)
+		String webPath = "/resources/images/board/";
+		
+		String folderPath = req.getSession().getServletContext().getRealPath(webPath);
+		// c:\workspace\~~
+		
+		return "";
+		
+	}
+	
+	
+	/* 내가 짠 코드
+	
 	// 게시글 작성 완료
 	@PostMapping("/write")
 	public String write(@RequestParam Map<String, Object> map, @RequestParam("0") MultipartFile image0,
@@ -410,6 +439,6 @@ public class BoardController {
 		
 		
 	}
-	
+	*/
 }
 
