@@ -300,6 +300,11 @@
 		UPDATE BOARD SET BOARD_ST = 'Y' WHERE BOARD_NO = #{boardNo} AND BOARD_CD = #{boardCode}
 	</update>
 	
+	<!-- BOARD_IMG 목록 조회 -->
+	<select id="selectDBList" resultType="string">
+		SELECT IMG_RENAME FROM BOARD_IMG
+	</select>
+	
 	<!-- 내가 짠 코드 
 	<insert id="insertBoard">
 		INSERT INTO BOARD VALUES(SEQ_BOARD_NO.NEXTVAL, #{boardTitle}, #{boardContent}, DEFAULT, DEFAULT, DEFAULT, DEFAULT, #{loginMember.memberNo},#{type} )

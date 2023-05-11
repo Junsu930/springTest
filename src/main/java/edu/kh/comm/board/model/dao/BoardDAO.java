@@ -167,6 +167,13 @@ public class BoardDAO {
 		return sqlSession.update("boardMapper.deleteBoard", map);
 	}
 
+	/** BOARD_IMG 목록 조회 DAO
+	 * @return DBList
+	 */
+	public List<String> selectDBList() {
+		return sqlSession.selectList("boardMapper.selectDBList");
+	}
+
 
 	/* 내가 짠 코드
 	public int insertBoard(Map<String, Object> map) {

@@ -45,6 +45,8 @@ function selectReplyList(){
                 const memberNickname = document.createElement("span");
                 memberNickname.innerText = reply.memberNickname;
                 
+                
+                
                 // 작성일
                 const replyDate = document.createElement("span");
                 replyDate.classList.add("reply-date");
@@ -59,8 +61,17 @@ function selectReplyList(){
                 const replyContent = document.createElement("p");
                 replyContent.classList.add("reply-content");
 
+				const parentNick = document.createElement("p");
+				parentNick.style.color="blue";
+                
                 // 왜 innerHTML?  <br> 태그 인식을 위해서
-                replyContent.innerHTML = reply.replyContent;
+                if(reply.parentReplyNo != 0){
+                    parentNick.innerHTML = "@" + reply.parentNick;
+                    replyContent.append(parentNick);
+                    replyContent.innerHTML += reply.replyContent ; 
+                } else {
+                    replyContent.innerHTML = reply.replyContent;
+                }
 
                 // 행에 작성자, 내용 추가
                 replyRow.append(replyWriter, replyContent);
@@ -149,7 +160,7 @@ addReply.addEventListener("click", function(){ // 댓글 등록 버튼이 클릭
         url : contextPath + "/reply/insert",
         data : {"replyContent" : replyContent.value,
                 "memberNo" : loginMemberNo,
-                "boardNo" : boardNo },
+                "boardNo" : boardNo},
         type : "post",
         success : function(result){
 

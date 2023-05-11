@@ -21,13 +21,16 @@
                             <!-- 프로필 이미지가 있을 경우 -->
                             <img src="${contextPath}${reply.profileImage}">
                         </c:if>
-
                         <span>${reply.memberNickname}</span>
                         <span class="reply-date">(${reply.createDate})</span>
                     </p>
-                    
+                    <c:if test="${reply.parentReplyNo != 0}">
+                    <p style="color:blue;">@${reply.parentNickname}</p>
                     <p class="reply-content">${reply.replyContent}</p>
-
+					</c:if>
+					<c:if test="${reply.parentReplyNo == 0}">
+					<p class="reply-content">${reply.replyContent}</p>
+					</c:if>
 					<%-- 로그인 상태인 경우 답글 버튼 출력 --%>
                     <c:if test="${!empty loginMember}">
                         <div class="reply-btn-area">

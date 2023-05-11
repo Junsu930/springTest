@@ -16,35 +16,65 @@ public class ReplyDAO {
 	@Autowired
 	private  SqlSessionTemplate sqlSession;
 
-	/** 댓글 반환 메서드
-	 * @param boardNo
-	 * @return list
-	 */
+	/* 내가 짠 코드
 	public List<Reply> replyList(int boardNo) {
 		return sqlSession.selectList("replyMapper.selectReply", boardNo);
 	}
 
-	/** 댓글 작성 메서드
-	 * @param replyContent
-	 * @param memberNo
-	 * @param boardNo
-	 * @return result
-	 */
+
 	public int replyInsert(Reply reply) {
 
 		return sqlSession.insert("replyMapper.insertReply",reply);
 	}
 
-	/** 댓글 수정 메서드
-	 * @param reply
-	 * @return
-	 */
+
 	public int replyUpdate(Reply reply) {
 		return sqlSession.update("replyMapper.updateReply", reply);
 	}
 
 	public int replyDelete(int replyNo) {
 		return sqlSession.update("replyMapper.deleteReply", replyNo);
+	}
+	*/
+
+	/** 댓글 목록 조회
+	 * @param boardNo
+	 * @return rList
+	 */
+	public List<Reply> selectReplyList(int boardNo) {
+		return sqlSession.selectList("replyMapper.selectReplyList", boardNo);
+	}
+
+	/** 댓글 등록 DAO
+	 * @param reply
+	 * @return result
+	 */
+	public int insertReply(Reply reply) {
+		return sqlSession.insert("replyMapper.insertReply", reply);
+	}
+	
+	/** 댓글 수정
+	 * @param reply
+	 * @return result
+	 */
+	public int replyUpdate(Reply reply) {
+		return sqlSession.update("replyMapper.updateReply", reply);
+	}
+
+	/** 댓글 삭제
+	 * @param replyNo
+	 * @return result
+	 */
+	public int replyDelete(int replyNo) {
+		return sqlSession.update("replyMapper.deleteReply", replyNo);
+	}
+
+	/** 부모댓글 닉네임 가져오기
+	 * @param parentReplyNo
+	 * @return
+	 */
+	public String selectParentNick(int parentReplyNo) {
+		return sqlSession.selectOne("replyMapper.selectParentNick", parentReplyNo);
 	}
 
 }

@@ -16,7 +16,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.SessionAttributes;
@@ -24,7 +23,9 @@ import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import edu.kh.comm.board.model.service.BoardService;
+import edu.kh.comm.board.model.service.ReplyService;
 import edu.kh.comm.board.model.vo.BoardDetail;
+import edu.kh.comm.board.model.vo.Reply;
 import edu.kh.comm.common.Util;
 import edu.kh.comm.member.model.vo.Member;
 
@@ -35,6 +36,7 @@ public class BoardController {
 	
 	@Autowired
 	private BoardService service;
+	private ReplyService rService;
 	
 	// 게시글 목록 조회
 	// 주소변수 @PathVariable을 통해 주소 부분에 변수 사용 가능
@@ -106,6 +108,7 @@ public class BoardController {
 		
 		if(detail != null) {
 			
+			// 댓글 목록 조회
 			
 			// 쿠키를 이용한 조회수 중복 증가 방지 코드 + 본인의 글은 조회수 증가 금지
 			

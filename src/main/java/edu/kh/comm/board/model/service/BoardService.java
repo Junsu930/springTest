@@ -74,6 +74,11 @@ public interface BoardService{
 	 */
 	int deleteBoard(int boardCode, int boardNo);
 
+	/** BOARD_IMG 이미지 목록 조회
+	 * @return DBList
+	 */
+	List<String> selectDBList();
+
 	/* 내가 짠 코드 
 	int insertBoard(Map<String, Object> map, Member loginMember);
 
