@@ -40,9 +40,9 @@ public class SchedulingTest {
 	// slf4j import
 	private Logger logger = LoggerFactory.getLogger(SchedulingTest.class);
 	
-	@Scheduled(fixedRate = 5000)
+	@Scheduled(fixedRate = 50000)
 	public void test() {
-		logger.info("5초마다 출력");
+		logger.info("50초마다 출력");
 		
 	}
 	
