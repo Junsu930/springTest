@@ -25,7 +25,6 @@ public class AfterThrowingAspect {
 		
 		logger.error(str);
 		
-		
 	}
 	
 }

@@ -20,6 +20,7 @@ public class AroundAspect {
 	@Around("CommonPointcut.implPointcut()")
 	public Object runningTime(ProceedingJoinPoint jp) throws Throwable{
 		
+		
 		// proceed() 메소드 호출 전 : @Before advice 작성
 		// proceed() 메소드 호출 후 : @After advice 작성
 		// 메소드 마지막에 proceed()의 반환값을 리턴해야함
