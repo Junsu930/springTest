@@ -1,0 +1,804 @@
+2023-05-12 09:40:13 [INFO] 초기화 필터 생성
+2023-05-12 09:41:22 [INFO] 초기화 필터 파괴
+2023-05-12 09:41:29 [INFO] 초기화 필터 생성
+2023-05-12 09:41:31 [INFO] 5초마다 출력
+2023-05-12 09:41:35 [INFO] 후처리 수행
+2023-05-12 09:41:36 [INFO] View단 처리 완료 후 수행
+2023-05-12 09:41:36 [INFO] 후처리 수행
+2023-05-12 09:41:36 [INFO] View단 처리 완료 후 수행
+2023-05-12 09:41:36 [INFO] 후처리 수행
+2023-05-12 09:41:36 [INFO] View단 처리 완료 후 수행
+2023-05-12 09:41:36 [INFO] 후처리 수행
+2023-05-12 09:41:36 [INFO] View단 처리 완료 후 수행
+2023-05-12 09:41:36 [INFO] 5초마다 출력
+2023-05-12 09:41:36 [INFO] --------------Service Start--------------
+2023-05-12 09:41:37 [INFO] 후처리 수행
+2023-05-12 09:41:37 [INFO] View단 처리 완료 후 수행
+2023-05-12 09:41:41 [INFO] 5초마다 출력
+2023-05-12 09:41:46 [INFO] 5초마다 출력
+2023-05-12 09:41:46 [INFO] --------------Service Start--------------
+2023-05-12 09:41:46 [INFO] 후처리 수행
+2023-05-12 09:41:46 [INFO] View단 처리 완료 후 수행
+2023-05-12 09:41:51 [INFO] 5초마다 출력
+2023-05-12 09:43:51 [INFO] 초기화 필터 생성
+2023-05-12 09:43:53 [INFO] 5초마다 출력
+2023-05-12 09:43:57 [INFO] 후처리 수행
+2023-05-12 09:43:57 [INFO] --------------Service Start--------------
+2023-05-12 09:43:57 [INFO] --------------Service End--------------
+2023-05-12 09:43:57 [INFO] 후처리 수행
+2023-05-12 09:43:57 [INFO] View단 처리 완료 후 수행
+2023-05-12 09:43:57 [INFO] View단 처리 완료 후 수행
+2023-05-12 09:43:57 [INFO] --------------Service Start--------------
+2023-05-12 09:43:57 [INFO] --------------Service End--------------
+2023-05-12 09:43:57 [INFO] 후처리 수행
+2023-05-12 09:43:57 [INFO] View단 처리 완료 후 수행
+2023-05-12 09:43:57 [INFO] --------------Service Start--------------
+2023-05-12 09:43:57 [INFO] --------------Service End--------------
+2023-05-12 09:43:57 [INFO] 후처리 수행
+2023-05-12 09:43:57 [INFO] View단 처리 완료 후 수행
+2023-05-12 09:43:58 [INFO] 5초마다 출력
+2023-05-12 09:44:00 [INFO] 0초다 크아~~
+2023-05-12 09:44:00 [INFO] [/resources/images/board/20230511120646_96938.jpg, /resources/images/board/20230511120646_50878.jpg, /resources/images/board/20230511120646_17024.jpg, /resources/images/board/20230511120646_99782.jpg, /resources/images/board/20230511120646_67028.jpg, /resources/images/board/sample1.jpg, /resources/images/board/sample2.jpg, /resources/images/board/sample3.jpg, /resources/images/board/sample4.jpg, /resources/images/board/sample5.jpg, /resources/images/board/20230504220041_05519.jpg, /resources/images/board/20230504220041_95151.jpg, /resources/images/board/20230504220133_07058.jpg, /resources/images/board/20230505163045_61347.jpg, /resources/images/board/20230505164307_25491.jpg, /resources/images/board/20230505164307_92907.jpg, /resources/images/board/20230505164328_40779.jpg, /resources/images/board/20230505164340_07956.jpg, /resources/images/board/20230509124407_84630.jpg, /resources/images/board/20230509124439_71791.jpg, /resources/images/board/20230509124439_51288.jpg, /resources/images/board/20230509124439_32618.jpg, /resources/images/board/20230509124439_77840.jpg]
+2023-05-12 09:44:00 [INFO] ---------서버 이미지 삭제 완료--------------
+2023-05-12 09:44:03 [INFO] 5초마다 출력
+2023-05-12 09:44:07 [INFO] --------------Service Start--------------
+2023-05-12 09:44:07 [INFO] --------------Service End--------------
+2023-05-12 09:44:07 [INFO] 후처리 수행
+2023-05-12 09:44:07 [INFO] View단 처리 완료 후 수행
+2023-05-12 09:44:08 [INFO] 5초마다 출력
+2023-05-12 09:44:13 [INFO] 5초마다 출력
+2023-05-12 09:44:17 [INFO] --------------Service Start--------------
+2023-05-12 09:44:17 [INFO] --------------Service End--------------
+2023-05-12 09:44:17 [INFO] 후처리 수행
+2023-05-12 09:44:17 [INFO] View단 처리 완료 후 수행
+2023-05-12 09:44:18 [INFO] 5초마다 출력
+2023-05-12 09:47:36 [INFO] 초기화 필터 생성
+2023-05-12 09:47:38 [INFO] 50초마다 출력
+2023-05-12 09:47:40 [INFO] --------------Service Start--------------
+2023-05-12 09:47:42 [INFO] --------------Service End--------------
+2023-05-12 09:47:42 [INFO] 후처리 수행
+2023-05-12 09:47:42 [INFO] View단 처리 완료 후 수행
+2023-05-12 09:47:43 [INFO] --------------Service Start--------------
+2023-05-12 09:47:43 [INFO] --------------Service End--------------
+2023-05-12 09:47:43 [INFO] 후처리 수행
+2023-05-12 09:47:43 [INFO] View단 처리 완료 후 수행
+2023-05-12 09:47:44 [INFO] --------------Service Start--------------
+2023-05-12 09:47:44 [INFO] --------------Service End--------------
+2023-05-12 09:47:44 [INFO] 후처리 수행
+2023-05-12 09:47:44 [INFO] View단 처리 완료 후 수행
+2023-05-12 09:47:44 [INFO] 후처리 수행
+2023-05-12 09:47:44 [INFO] View단 처리 완료 후 수행
+2023-05-12 09:47:44 [INFO] 후처리 수행
+2023-05-12 09:47:44 [INFO] View단 처리 완료 후 수행
+2023-05-12 09:47:44 [INFO] 후처리 수행
+2023-05-12 09:47:44 [INFO] View단 처리 완료 후 수행
+2023-05-12 09:47:54 [INFO] --------------Service Start--------------
+2023-05-12 09:47:54 [INFO] --------------Service End--------------
+2023-05-12 09:47:54 [INFO] 후처리 수행
+2023-05-12 09:47:54 [INFO] View단 처리 완료 후 수행
+2023-05-12 09:47:54 [INFO] 후처리 수행
+2023-05-12 09:47:54 [INFO] View단 처리 완료 후 수행
+2023-05-12 09:48:00 [INFO] --------------Service Start--------------
+2023-05-12 09:48:00 [INFO] --------------Service End--------------
+2023-05-12 09:48:00 [INFO] [/resources/images/board/20230511120646_96938.jpg, /resources/images/board/20230511120646_50878.jpg, /resources/images/board/20230511120646_17024.jpg, /resources/images/board/20230511120646_99782.jpg, /resources/images/board/20230511120646_67028.jpg, /resources/images/board/sample1.jpg, /resources/images/board/sample2.jpg, /resources/images/board/sample3.jpg, /resources/images/board/sample4.jpg, /resources/images/board/sample5.jpg, /resources/images/board/20230504220041_05519.jpg, /resources/images/board/20230504220041_95151.jpg, /resources/images/board/20230504220133_07058.jpg, /resources/images/board/20230505163045_61347.jpg, /resources/images/board/20230505164307_25491.jpg, /resources/images/board/20230505164307_92907.jpg, /resources/images/board/20230505164328_40779.jpg, /resources/images/board/20230505164340_07956.jpg, /resources/images/board/20230509124407_84630.jpg, /resources/images/board/20230509124439_71791.jpg, /resources/images/board/20230509124439_51288.jpg, /resources/images/board/20230509124439_32618.jpg, /resources/images/board/20230509124439_77840.jpg]
+2023-05-12 09:48:00 [INFO] ---------서버 이미지 삭제 완료--------------
+2023-05-12 09:48:00 [INFO] 0초다 크아~~
+2023-05-12 09:48:00 [INFO] --------------Service Start--------------
+2023-05-12 09:48:00 [INFO] --------------Service End--------------
+2023-05-12 09:48:00 [INFO] --------------Service Start--------------
+2023-05-12 09:48:00 [INFO] --------------Service End--------------
+2023-05-12 09:48:00 [INFO] 후처리 수행
+2023-05-12 09:48:00 [INFO] View단 처리 완료 후 수행
+2023-05-12 09:48:00 [INFO] 후처리 수행
+2023-05-12 09:48:00 [INFO] 후처리 수행
+2023-05-12 09:48:00 [INFO] View단 처리 완료 후 수행
+2023-05-12 09:48:00 [INFO] View단 처리 완료 후 수행
+2023-05-12 09:48:00 [INFO] 후처리 수행
+2023-05-12 09:48:00 [INFO] View단 처리 완료 후 수행
+2023-05-12 09:48:00 [INFO] 후처리 수행
+2023-05-12 09:48:00 [INFO] View단 처리 완료 후 수행
+2023-05-12 09:48:00 [INFO] 후처리 수행
+2023-05-12 09:48:00 [INFO] View단 처리 완료 후 수행
+2023-05-12 09:48:00 [INFO] 후처리 수행
+2023-05-12 09:48:00 [INFO] View단 처리 완료 후 수행
+2023-05-12 09:48:00 [INFO] 후처리 수행
+2023-05-12 09:48:00 [INFO] View단 처리 완료 후 수행
+2023-05-12 09:48:00 [INFO] 후처리 수행
+2023-05-12 09:48:00 [INFO] View단 처리 완료 후 수행
+2023-05-12 09:48:00 [INFO] --------------Service Start--------------
+2023-05-12 09:48:00 [INFO] --------------Service End--------------
+2023-05-12 09:48:00 [INFO] 후처리 수행
+2023-05-12 09:48:00 [INFO] View단 처리 완료 후 수행
+2023-05-12 09:48:00 [INFO] 후처리 수행
+2023-05-12 09:48:00 [INFO] View단 처리 완료 후 수행
+2023-05-12 10:09:32 [INFO] 초기화 필터 생성
+2023-05-12 10:09:34 [INFO] 50초마다 출력
+2023-05-12 10:09:35 [INFO] 와웅 클래스네임은?BoardServiceImpl
+ 와웅 메서드네임은?selectBoardType
+와웅 매개변수는?[]
+2023-05-12 10:09:37 [INFO] 후처리 수행
+2023-05-12 10:09:37 [INFO] View단 처리 완료 후 수행
+2023-05-12 10:09:38 [INFO] 와웅 클래스네임은?MemberServiceImpl
+ 와웅 메서드네임은?selectAll
+와웅 매개변수는?[]
+2023-05-12 10:09:38 [INFO] 후처리 수행
+2023-05-12 10:09:38 [INFO] View단 처리 완료 후 수행
+2023-05-12 10:09:48 [INFO] 와웅 클래스네임은?MemberServiceImpl
+ 와웅 메서드네임은?selectAll
+와웅 매개변수는?[]
+2023-05-12 10:09:48 [INFO] 후처리 수행
+2023-05-12 10:09:48 [INFO] View단 처리 완료 후 수행
+2023-05-12 10:09:57 [INFO] 와웅 클래스네임은?BoardServiceImpl
+ 와웅 메서드네임은?selectBoardList
+와웅 매개변수는?[1, 2]
+2023-05-12 10:09:57 [INFO] 후처리 수행
+2023-05-12 10:09:57 [INFO] View단 처리 완료 후 수행
+2023-05-12 10:09:57 [INFO] 와웅 클래스네임은?BoardServiceImpl
+ 와웅 메서드네임은?selectBoardList
+와웅 매개변수는?[1, 1]
+2023-05-12 10:09:57 [INFO] 후처리 수행
+2023-05-12 10:09:57 [INFO] View단 처리 완료 후 수행
+2023-05-12 10:09:59 [INFO] 와웅 클래스네임은?BoardServiceImpl
+ 와웅 메서드네임은?selectBoardList
+와웅 매개변수는?[1, 1]
+2023-05-12 10:09:59 [INFO] 후처리 수행
+2023-05-12 10:09:59 [INFO] View단 처리 완료 후 수행
+2023-05-12 10:10:00 [INFO] 0초다 크아~~
+2023-05-12 10:10:00 [INFO] 와웅 클래스네임은?BoardServiceImpl
+ 와웅 메서드네임은?selectBoardList
+와웅 매개변수는?[1, 3]
+2023-05-12 10:10:00 [INFO] 후처리 수행
+2023-05-12 10:10:00 [INFO] View단 처리 완료 후 수행
+2023-05-12 10:10:02 [INFO] 와웅 클래스네임은?BoardServiceImpl
+ 와웅 메서드네임은?selectBoardDetail
+와웅 매개변수는?[500]
+2023-05-12 10:10:02 [INFO] 후처리 수행
+2023-05-12 10:10:02 [INFO] View단 처리 완료 후 수행
+2023-05-12 10:10:02 [INFO] 와웅 클래스네임은?ReplyServiceImpl
+ 와웅 메서드네임은?selectReplyList
+와웅 매개변수는?[500]
+2023-05-12 10:10:02 [INFO] 후처리 수행
+2023-05-12 10:10:02 [INFO] View단 처리 완료 후 수행
+2023-05-12 10:10:23 [INFO] 초기화 필터 파괴
+2023-05-12 10:10:27 [INFO] 초기화 필터 생성
+2023-05-12 10:10:29 [INFO] 50초마다 출력
+2023-05-12 10:10:52 [INFO] 초기화 필터 파괴
+2023-05-12 10:10:56 [INFO] 초기화 필터 생성
+2023-05-12 10:10:58 [INFO] 50초마다 출력
+2023-05-12 10:11:00 [INFO] 0초다 크아~~
+2023-05-12 10:11:16 [INFO] ---------------------------------------
+Start : BoardServiceImpl - selectBoardType
+Parameter : []
+
+2023-05-12 10:11:16 [INFO] ---------------------------------------
+Start : BoardServiceImpl - selectBoardType
+Parameter : []
+
+2023-05-12 10:11:17 [INFO] ---------------------------------------
+Start : BoardServiceImpl - selectBoardList
+Parameter : [1, 3]
+
+2023-05-12 10:11:17 [INFO] ---------------------------------------
+Start : BoardServiceImpl - selectBoardList
+Parameter : [1, 2]
+
+2023-05-12 10:11:17 [INFO] 후처리 수행
+2023-05-12 10:11:17 [INFO] 후처리 수행
+2023-05-12 10:11:17 [INFO] View단 처리 완료 후 수행
+2023-05-12 10:11:17 [INFO] View단 처리 완료 후 수행
+2023-05-12 10:11:20 [INFO] ---------------------------------------
+Start : BoardServiceImpl - selectBoardDetail
+Parameter : [500]
+
+2023-05-12 10:11:20 [INFO] 후처리 수행
+2023-05-12 10:11:20 [INFO] View단 처리 완료 후 수행
+2023-05-12 10:11:20 [INFO] ---------------------------------------
+Start : ReplyServiceImpl - selectReplyList
+Parameter : [500]
+
+2023-05-12 10:11:20 [INFO] 후처리 수행
+2023-05-12 10:11:20 [INFO] View단 처리 완료 후 수행
+2023-05-12 10:11:48 [INFO] 50초마다 출력
+2023-05-12 10:12:00 [INFO] 0초다 크아~~
+2023-05-12 10:12:19 [INFO] 후처리 수행
+2023-05-12 10:12:19 [INFO] View단 처리 완료 후 수행
+2023-05-12 10:12:19 [INFO] ---------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+
+2023-05-12 10:12:19 [INFO] 후처리 수행
+2023-05-12 10:12:19 [INFO] View단 처리 완료 후 수행
+2023-05-12 10:12:29 [INFO] ---------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+
+2023-05-12 10:12:29 [INFO] 후처리 수행
+2023-05-12 10:12:29 [INFO] View단 처리 완료 후 수행
+2023-05-12 10:18:26 [INFO] 초기화 필터 생성
+2023-05-12 10:18:28 [INFO] 50초마다 출력
+2023-05-12 10:18:29 [INFO] ---------------------------------------
+Start : BoardServiceImpl - selectBoardType
+Parameter : []
+ip : 0:0:0:0:0:0:0:1
+2023-05-12 10:18:31 [INFO] 후처리 수행
+2023-05-12 10:18:31 [INFO] View단 처리 완료 후 수행
+2023-05-12 10:18:31 [INFO] ---------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 0:0:0:0:0:0:0:1
+2023-05-12 10:18:31 [INFO] 후처리 수행
+2023-05-12 10:18:31 [INFO] View단 처리 완료 후 수행
+2023-05-12 10:18:41 [INFO] ---------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 0:0:0:0:0:0:0:1
+2023-05-12 10:18:41 [INFO] 후처리 수행
+2023-05-12 10:18:41 [INFO] View단 처리 완료 후 수행
+2023-05-12 10:18:51 [INFO] ---------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 0:0:0:0:0:0:0:1
+2023-05-12 10:18:51 [INFO] 후처리 수행
+2023-05-12 10:18:51 [INFO] View단 처리 완료 후 수행
+2023-05-12 10:18:52 [INFO] 로그인 기능 수행됨
+2023-05-12 10:18:52 [INFO] ---------------------------------------
+Start : MemberServiceImpl - login
+Parameter : [Member(memberNo=0, memberEmail=test01@naver.com, memberPw=wnstn8307!, memberNickname=null, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+ip : 0:0:0:0:0:0:0:1
+2023-05-12 10:18:52 [DEBUG] wnstn8307! / $2a$10$KGsFpx081RKY34lZM2UQh.9TI86bn/zhSHa1Yhh5yv.1M5M1ntza2
+2023-05-12 10:18:52 [INFO] 후처리 수행
+2023-05-12 10:18:52 [INFO] View단 처리 완료 후 수행
+2023-05-12 10:18:52 [INFO] 후처리 수행
+2023-05-12 10:18:52 [INFO] View단 처리 완료 후 수행
+2023-05-12 10:19:00 [INFO] 0초다 크아~~
+2023-05-12 10:19:18 [INFO] 50초마다 출력
+2023-05-12 10:19:44 [INFO] ---------------------------------------
+Start : BoardServiceImpl - selectBoardList
+Parameter : [1, 1]
+ip : 0:0:0:0:0:0:0:1 (email : test01@naver.com)
+2023-05-12 10:19:44 [INFO] 후처리 수행
+2023-05-12 10:19:44 [INFO] View단 처리 완료 후 수행
+2023-05-12 10:21:40 [INFO] 초기화 필터 생성
+2023-05-12 10:21:42 [INFO] 50초마다 출력
+2023-05-12 10:21:44 [INFO] ---------------------------------------
+Start : BoardServiceImpl - selectBoardType
+Parameter : []
+ip : 127.0.0.1
+2023-05-12 10:21:45 [INFO] 후처리 수행
+2023-05-12 10:21:46 [INFO] View단 처리 완료 후 수행
+2023-05-12 10:21:46 [INFO] ---------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2023-05-12 10:21:46 [INFO] 후처리 수행
+2023-05-12 10:21:46 [INFO] View단 처리 완료 후 수행
+2023-05-12 10:27:04 [INFO] 초기화 필터 생성
+2023-05-12 10:27:06 [INFO] 50초마다 출력
+2023-05-12 10:27:07 [INFO] ---------------------------------------
+Start : BoardServiceImpl - selectBoardType
+Parameter : []
+ip : 127.0.0.1
+2023-05-12 10:27:09 [INFO] End : BoardServiceImpl - selectBoardType
+---------------------------------------
+
+2023-05-12 10:27:09 [INFO] 후처리 수행
+2023-05-12 10:27:09 [INFO] View단 처리 완료 후 수행
+2023-05-12 10:27:09 [INFO] ---------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2023-05-12 10:27:10 [INFO] End : MemberServiceImpl - selectAll
+---------------------------------------
+
+2023-05-12 10:27:10 [INFO] 후처리 수행
+2023-05-12 10:27:10 [INFO] View단 처리 완료 후 수행
+2023-05-12 10:27:20 [INFO] ---------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2023-05-12 10:27:20 [INFO] End : MemberServiceImpl - selectAll
+---------------------------------------
+
+2023-05-12 10:27:20 [INFO] 후처리 수행
+2023-05-12 10:27:20 [INFO] View단 처리 완료 후 수행
+2023-05-12 10:33:14 [INFO] 초기화 필터 생성
+2023-05-12 10:33:16 [INFO] 50초마다 출력
+2023-05-12 10:33:18 [INFO] ---------------------------------------
+Start : BoardServiceImpl - selectBoardType
+Parameter : []
+ip : 127.0.0.1
+2023-05-12 10:33:19 [INFO] Return Value : [edu.kh.comm.board.model.vo.BoardType@a883ac2, edu.kh.comm.board.model.vo.BoardType@102f5372, edu.kh.comm.board.model.vo.BoardType@243d89ac]
+2023-05-12 10:33:19 [INFO] End : BoardServiceImpl - selectBoardType
+---------------------------------------
+
+2023-05-12 10:33:19 [INFO] 후처리 수행
+2023-05-12 10:33:20 [INFO] View단 처리 완료 후 수행
+2023-05-12 10:33:20 [INFO] ---------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2023-05-12 10:33:20 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=깅깅이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=16, memberEmail=bobdylan331@naver.com, memberPw=null, memberNickname=딩디이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=14, memberEmail=sefkje@navr.com, memberPw=null, memberNickname=딩럳, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=15, memberEmail=fejkf@naver.com, memberPw=null, memberNickname=강강공, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=17, memberEmail=qweqwe@naver.com, memberPw=null, memberNickname=esf, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=18, memberEmail=junsu930@naver.com, memberPw=null, memberNickname=딩동동, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2023-05-12 10:33:20 [INFO] End : MemberServiceImpl - selectAll
+---------------------------------------
+
+2023-05-12 10:33:20 [INFO] 후처리 수행
+2023-05-12 10:33:20 [INFO] View단 처리 완료 후 수행
+2023-05-12 10:33:30 [INFO] ---------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2023-05-12 10:33:30 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=깅깅이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=16, memberEmail=bobdylan331@naver.com, memberPw=null, memberNickname=딩디이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=14, memberEmail=sefkje@navr.com, memberPw=null, memberNickname=딩럳, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=15, memberEmail=fejkf@naver.com, memberPw=null, memberNickname=강강공, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=17, memberEmail=qweqwe@naver.com, memberPw=null, memberNickname=esf, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=18, memberEmail=junsu930@naver.com, memberPw=null, memberNickname=딩동동, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2023-05-12 10:33:30 [INFO] End : MemberServiceImpl - selectAll
+---------------------------------------
+
+2023-05-12 10:33:30 [INFO] 후처리 수행
+2023-05-12 10:33:30 [INFO] View단 처리 완료 후 수행
+2023-05-12 10:33:40 [INFO] ---------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2023-05-12 10:33:40 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=깅깅이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=16, memberEmail=bobdylan331@naver.com, memberPw=null, memberNickname=딩디이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=14, memberEmail=sefkje@navr.com, memberPw=null, memberNickname=딩럳, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=15, memberEmail=fejkf@naver.com, memberPw=null, memberNickname=강강공, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=17, memberEmail=qweqwe@naver.com, memberPw=null, memberNickname=esf, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=18, memberEmail=junsu930@naver.com, memberPw=null, memberNickname=딩동동, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2023-05-12 10:33:40 [INFO] End : MemberServiceImpl - selectAll
+---------------------------------------
+
+2023-05-12 10:33:40 [INFO] 후처리 수행
+2023-05-12 10:33:40 [INFO] View단 처리 완료 후 수행
+2023-05-12 10:33:50 [INFO] ---------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2023-05-12 10:33:50 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=깅깅이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=16, memberEmail=bobdylan331@naver.com, memberPw=null, memberNickname=딩디이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=14, memberEmail=sefkje@navr.com, memberPw=null, memberNickname=딩럳, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=15, memberEmail=fejkf@naver.com, memberPw=null, memberNickname=강강공, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=17, memberEmail=qweqwe@naver.com, memberPw=null, memberNickname=esf, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=18, memberEmail=junsu930@naver.com, memberPw=null, memberNickname=딩동동, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2023-05-12 10:33:50 [INFO] End : MemberServiceImpl - selectAll
+---------------------------------------
+
+2023-05-12 10:33:50 [INFO] 후처리 수행
+2023-05-12 10:33:50 [INFO] View단 처리 완료 후 수행
+2023-05-12 10:33:59 [INFO] 로그인 기능 수행됨
+2023-05-12 10:33:59 [INFO] ---------------------------------------
+Start : MemberServiceImpl - login
+Parameter : [Member(memberNo=0, memberEmail=junsu930@naver.com, memberPw=qweqwe, memberNickname=null, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+ip : 127.0.0.1
+2023-05-12 10:33:59 [DEBUG] qweqwe / $2a$10$IvoLYxz7bP4.I6nJe5JlreBqht8z6OQYDP8BwqRfrUgFcsYKeNVMG
+2023-05-12 10:33:59 [INFO] Return Value : Member(memberNo=18, memberEmail=junsu930@naver.com, memberPw=null, memberNickname=딩동동, memberTel=01099101862, memberAddress=13480,,경기 성남시 분당구 대왕판교로 477,,대왕리, profileImage=/resources/images/memberProfile/20230510144656_98056.jpg, enrollDate=2023-05-10 14:46:36, secessionFlag=null)
+2023-05-12 10:33:59 [INFO] End : MemberServiceImpl - login
+---------------------------------------
+
+2023-05-12 10:33:59 [INFO] 후처리 수행
+2023-05-12 10:33:59 [INFO] View단 처리 완료 후 수행
+2023-05-12 10:33:59 [INFO] 후처리 수행
+2023-05-12 10:33:59 [INFO] View단 처리 완료 후 수행
+2023-05-12 10:34:00 [INFO] 0초다 크아~~
+2023-05-12 10:34:00 [INFO] ---------------------------------------
+Start : BoardServiceImpl - selectBoardList
+Parameter : [1, 1]
+ip : 127.0.0.1 (email : junsu930@naver.com)
+2023-05-12 10:34:00 [INFO] Return Value : {pagination=Pagination [currentPage=1, listCount=0, limit=10, pageSize=10, maxPage=0, startPage=1, endPage=0, prevPage=1, nextPage=0], boardList=[]}
+2023-05-12 10:34:00 [INFO] End : BoardServiceImpl - selectBoardList
+---------------------------------------
+
+2023-05-12 10:34:00 [INFO] 후처리 수행
+2023-05-12 10:34:00 [INFO] View단 처리 완료 후 수행
+2023-05-12 10:34:01 [INFO] ---------------------------------------
+Start : BoardServiceImpl - selectBoardList
+Parameter : [1, 3]
+ip : 127.0.0.1 (email : junsu930@naver.com)
+2023-05-12 10:34:01 [INFO] Return Value : {pagination=Pagination [currentPage=1, listCount=500, limit=10, pageSize=10, maxPage=50, startPage=1, endPage=10, prevPage=1, nextPage=11], boardList=[edu.kh.comm.board.model.vo.Board@1a005e2e, edu.kh.comm.board.model.vo.Board@6b676c4b, edu.kh.comm.board.model.vo.Board@9694b48, edu.kh.comm.board.model.vo.Board@50b70f72, edu.kh.comm.board.model.vo.Board@48deca64, edu.kh.comm.board.model.vo.Board@180bf200, edu.kh.comm.board.model.vo.Board@5b7bd942, edu.kh.comm.board.model.vo.Board@33df91c0, edu.kh.comm.board.model.vo.Board@dece035, edu.kh.comm.board.model.vo.Board@4ab0887a]}
+2023-05-12 10:34:01 [INFO] End : BoardServiceImpl - selectBoardList
+---------------------------------------
+
+2023-05-12 10:34:01 [INFO] 후처리 수행
+2023-05-12 10:34:01 [INFO] View단 처리 완료 후 수행
+2023-05-12 10:34:02 [INFO] ---------------------------------------
+Start : BoardServiceImpl - selectBoardDetail
+Parameter : [500]
+ip : 127.0.0.1 (email : junsu930@naver.com)
+2023-05-12 10:34:02 [INFO] Return Value : edu.kh.comm.board.model.vo.BoardDetail@2fc9f584
+2023-05-12 10:34:02 [INFO] End : BoardServiceImpl - selectBoardDetail
+---------------------------------------
+
+2023-05-12 10:34:02 [INFO] 후처리 수행
+2023-05-12 10:34:02 [INFO] View단 처리 완료 후 수행
+2023-05-12 10:34:02 [INFO] ---------------------------------------
+Start : ReplyServiceImpl - selectReplyList
+Parameter : [500]
+ip : 127.0.0.1 (email : junsu930@naver.com)
+2023-05-12 10:34:02 [INFO] Return Value : [Reply(replyNo=53, replyContent=ㅋㅋㅋㅋ, createDate=2023년 05월 11일 12시 07분 32초, boardNo=500, memberNo=1, memberNickname=깅깅이, profileImage=/resources/images/memberProfile/20230501094127_35989.jpg, parentReplyNo=0, parentNick=null), Reply(replyNo=54, replyContent=왜 웃음?, createDate=2023년 05월 11일 12시 08분 38초, boardNo=500, memberNo=18, memberNickname=딩동동, profileImage=/resources/images/memberProfile/20230510144656_98056.jpg, parentReplyNo=53, parentNick=깅깅이), Reply(replyNo=55, replyContent=ㅋㅋ, createDate=2023년 05월 11일 12시 08분 44초, boardNo=500, memberNo=18, memberNickname=딩동동, profileImage=/resources/images/memberProfile/20230510144656_98056.jpg, parentReplyNo=54, parentNick=딩동동)]
+2023-05-12 10:34:02 [INFO] End : ReplyServiceImpl - selectReplyList
+---------------------------------------
+
+2023-05-12 10:34:02 [INFO] 후처리 수행
+2023-05-12 10:34:02 [INFO] View단 처리 완료 후 수행
+2023-05-12 10:34:06 [INFO] 50초마다 출력
+2023-05-12 10:34:56 [INFO] 50초마다 출력
+2023-05-12 10:35:00 [INFO] 0초다 크아~~
+2023-05-12 10:39:02 [INFO] 초기화 필터 생성
+2023-05-12 10:39:04 [INFO] 50초마다 출력
+2023-05-12 10:39:05 [INFO] ---------------------------------------
+Start : BoardServiceImpl - selectBoardType
+Parameter : []
+ip : 127.0.0.1
+2023-05-12 10:39:07 [INFO] Return Value : [edu.kh.comm.board.model.vo.BoardType@3006b99c, edu.kh.comm.board.model.vo.BoardType@53653a43, edu.kh.comm.board.model.vo.BoardType@1e295817]
+2023-05-12 10:39:07 [INFO] End : BoardServiceImpl - selectBoardType
+---------------------------------------
+
+2023-05-12 10:39:07 [INFO] 후처리 수행
+2023-05-12 10:39:07 [INFO] View단 처리 완료 후 수행
+2023-05-12 10:39:07 [INFO] ---------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2023-05-12 10:39:07 [ERROR] <<exception>> : org.springframework.jdbc.support.SQLExceptionSubclassTranslator.doTranslate(SQLExceptionSubclassTranslator.java:93) - 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+
+### The error may exist in /mappers/member-mapper.xml
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT MEMBER_NO, MEMBER_EMAIL, MEMBER_NICK FROM MEMBER_S WHERE SECESSION_FL='N';
+### Cause: java.sql.SQLSyntaxErrorException: ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+
+
+2023-05-12 10:39:07 [INFO] End : MemberServiceImpl - selectAll
+---------------------------------------
+
+2023-05-12 10:39:08 [INFO] View단 처리 완료 후 수행
+2023-05-12 10:39:17 [INFO] ---------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2023-05-12 10:39:17 [ERROR] <<exception>> : org.springframework.jdbc.support.SQLExceptionSubclassTranslator.doTranslate(SQLExceptionSubclassTranslator.java:93) - 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+
+### The error may exist in /mappers/member-mapper.xml
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT MEMBER_NO, MEMBER_EMAIL, MEMBER_NICK FROM MEMBER_S WHERE SECESSION_FL='N';
+### Cause: java.sql.SQLSyntaxErrorException: ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+
+
+2023-05-12 10:39:17 [INFO] End : MemberServiceImpl - selectAll
+---------------------------------------
+
+2023-05-12 10:39:17 [INFO] View단 처리 완료 후 수행
+2023-05-12 10:39:27 [INFO] ---------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2023-05-12 10:39:27 [ERROR] <<exception>> : org.springframework.jdbc.support.SQLExceptionSubclassTranslator.doTranslate(SQLExceptionSubclassTranslator.java:93) - 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+
+### The error may exist in /mappers/member-mapper.xml
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT MEMBER_NO, MEMBER_EMAIL, MEMBER_NICK FROM MEMBER_S WHERE SECESSION_FL='N';
+### Cause: java.sql.SQLSyntaxErrorException: ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+
+
+2023-05-12 10:39:27 [INFO] End : MemberServiceImpl - selectAll
+---------------------------------------
+
+2023-05-12 10:39:27 [INFO] View단 처리 완료 후 수행
+2023-05-12 10:39:37 [INFO] ---------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2023-05-12 10:39:37 [ERROR] <<exception>> : org.springframework.jdbc.support.SQLExceptionSubclassTranslator.doTranslate(SQLExceptionSubclassTranslator.java:93) - 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+
+### The error may exist in /mappers/member-mapper.xml
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT MEMBER_NO, MEMBER_EMAIL, MEMBER_NICK FROM MEMBER_S WHERE SECESSION_FL='N';
+### Cause: java.sql.SQLSyntaxErrorException: ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+
+
+2023-05-12 10:39:37 [INFO] End : MemberServiceImpl - selectAll
+---------------------------------------
+
+2023-05-12 10:39:37 [INFO] View단 처리 완료 후 수행
+2023-05-12 10:39:40 [INFO] 초기화 필터 파괴
+2023-05-12 10:39:46 [INFO] 초기화 필터 생성
+2023-05-12 10:39:49 [INFO] 50초마다 출력
+2023-05-12 10:40:00 [INFO] 0초다 크아~~
+2023-05-12 10:40:39 [INFO] 50초마다 출력
+2023-05-12 10:41:00 [INFO] 0초다 크아~~
+2023-05-12 10:41:29 [INFO] 50초마다 출력
+2023-05-12 10:42:00 [INFO] 0초다 크아~~
+2023-05-12 10:42:19 [INFO] 50초마다 출력
+2023-05-12 10:43:00 [INFO] 0초다 크아~~
+2023-05-12 10:43:09 [INFO] 50초마다 출력
+2023-05-12 10:43:59 [INFO] 50초마다 출력
+2023-05-12 10:44:00 [INFO] 0초다 크아~~
+2023-05-12 10:44:49 [INFO] 50초마다 출력
+2023-05-12 10:45:00 [INFO] 0초다 크아~~
+2023-05-12 10:45:39 [INFO] 50초마다 출력
+2023-05-12 10:46:00 [INFO] 0초다 크아~~
+2023-05-12 10:46:29 [INFO] 50초마다 출력
+2023-05-12 10:47:00 [INFO] 0초다 크아~~
+2023-05-12 10:47:19 [INFO] 50초마다 출력
+2023-05-12 10:48:00 [INFO] 0초다 크아~~
+2023-05-12 10:48:09 [INFO] 50초마다 출력
+2023-05-12 10:48:59 [INFO] 50초마다 출력
+2023-05-12 10:49:00 [INFO] 0초다 크아~~
+2023-05-12 10:49:49 [INFO] 50초마다 출력
+2023-05-12 10:50:00 [INFO] 0초다 크아~~
+2023-05-12 10:50:39 [INFO] 50초마다 출력
+2023-05-12 10:51:00 [INFO] 0초다 크아~~
+2023-05-12 10:51:29 [INFO] 50초마다 출력
+2023-05-12 10:52:00 [INFO] 0초다 크아~~
+2023-05-12 10:52:19 [INFO] 50초마다 출력
+2023-05-12 10:53:00 [INFO] 0초다 크아~~
+2023-05-12 10:53:09 [INFO] 50초마다 출력
+2023-05-12 10:53:59 [INFO] 50초마다 출력
+2023-05-12 10:54:00 [INFO] 0초다 크아~~
+2023-05-12 10:54:49 [INFO] 50초마다 출력
+2023-05-12 10:55:00 [INFO] 0초다 크아~~
+2023-05-12 10:55:39 [INFO] 50초마다 출력
+2023-05-12 10:56:00 [INFO] 0초다 크아~~
+2023-05-12 10:56:29 [INFO] 50초마다 출력
+2023-05-12 10:57:00 [INFO] 0초다 크아~~
+2023-05-12 10:57:19 [INFO] 50초마다 출력
+2023-05-12 10:58:00 [INFO] 0초다 크아~~
+2023-05-12 10:58:09 [INFO] 50초마다 출력
+2023-05-12 10:58:59 [INFO] 50초마다 출력
+2023-05-12 10:59:00 [INFO] 0초다 크아~~
+2023-05-12 11:11:25 [INFO] 초기화 필터 생성
+2023-05-12 11:11:28 [INFO] 50초마다 출력
+2023-05-12 11:11:29 [INFO] ---------------------------------------
+Start : BoardServiceImpl - selectBoardType
+Parameter : []
+ip : 127.0.0.1
+2023-05-12 11:11:31 [INFO] Running Time : 1888ms
+2023-05-12 11:11:31 [INFO] Return Value : [edu.kh.comm.board.model.vo.BoardType@75225ef9, edu.kh.comm.board.model.vo.BoardType@3bca9abd, edu.kh.comm.board.model.vo.BoardType@1ee30a84]
+2023-05-12 11:11:31 [INFO] End : BoardServiceImpl - selectBoardType
+---------------------------------------
+
+2023-05-12 11:11:31 [INFO] 후처리 수행
+2023-05-12 11:11:31 [INFO] View단 처리 완료 후 수행
+2023-05-12 11:11:32 [INFO] ---------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2023-05-12 11:11:32 [INFO] Running Time : 12ms
+2023-05-12 11:11:32 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=깅깅이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=16, memberEmail=bobdylan331@naver.com, memberPw=null, memberNickname=딩디이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=14, memberEmail=sefkje@navr.com, memberPw=null, memberNickname=딩럳, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=15, memberEmail=fejkf@naver.com, memberPw=null, memberNickname=강강공, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=17, memberEmail=qweqwe@naver.com, memberPw=null, memberNickname=esf, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=18, memberEmail=junsu930@naver.com, memberPw=null, memberNickname=딩동동, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2023-05-12 11:11:32 [INFO] End : MemberServiceImpl - selectAll
+---------------------------------------
+
+2023-05-12 11:11:32 [INFO] 후처리 수행
+2023-05-12 11:11:32 [INFO] View단 처리 완료 후 수행
+2023-05-12 11:11:42 [INFO] ---------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2023-05-12 11:11:42 [INFO] Running Time : 5ms
+2023-05-12 11:11:42 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=깅깅이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=16, memberEmail=bobdylan331@naver.com, memberPw=null, memberNickname=딩디이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=14, memberEmail=sefkje@navr.com, memberPw=null, memberNickname=딩럳, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=15, memberEmail=fejkf@naver.com, memberPw=null, memberNickname=강강공, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=17, memberEmail=qweqwe@naver.com, memberPw=null, memberNickname=esf, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=18, memberEmail=junsu930@naver.com, memberPw=null, memberNickname=딩동동, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2023-05-12 11:11:42 [INFO] End : MemberServiceImpl - selectAll
+---------------------------------------
+
+2023-05-12 11:11:42 [INFO] 후처리 수행
+2023-05-12 11:11:42 [INFO] View단 처리 완료 후 수행
+2023-05-12 11:11:52 [INFO] ---------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2023-05-12 11:11:52 [INFO] Running Time : 6ms
+2023-05-12 11:11:52 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=깅깅이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=16, memberEmail=bobdylan331@naver.com, memberPw=null, memberNickname=딩디이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=14, memberEmail=sefkje@navr.com, memberPw=null, memberNickname=딩럳, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=15, memberEmail=fejkf@naver.com, memberPw=null, memberNickname=강강공, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=17, memberEmail=qweqwe@naver.com, memberPw=null, memberNickname=esf, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=18, memberEmail=junsu930@naver.com, memberPw=null, memberNickname=딩동동, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2023-05-12 11:11:52 [INFO] End : MemberServiceImpl - selectAll
+---------------------------------------
+
+2023-05-12 11:11:52 [INFO] 후처리 수행
+2023-05-12 11:11:52 [INFO] View단 처리 완료 후 수행
+2023-05-12 11:12:00 [INFO] 0초다 크아~~
+2023-05-12 11:12:02 [INFO] ---------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2023-05-12 11:12:02 [INFO] Running Time : 3ms
+2023-05-12 11:12:02 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=깅깅이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=16, memberEmail=bobdylan331@naver.com, memberPw=null, memberNickname=딩디이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=14, memberEmail=sefkje@navr.com, memberPw=null, memberNickname=딩럳, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=15, memberEmail=fejkf@naver.com, memberPw=null, memberNickname=강강공, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=17, memberEmail=qweqwe@naver.com, memberPw=null, memberNickname=esf, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=18, memberEmail=junsu930@naver.com, memberPw=null, memberNickname=딩동동, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2023-05-12 11:12:02 [INFO] End : MemberServiceImpl - selectAll
+---------------------------------------
+
+2023-05-12 11:12:02 [INFO] 후처리 수행
+2023-05-12 11:12:02 [INFO] View단 처리 완료 후 수행
+2023-05-12 11:12:12 [INFO] ---------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2023-05-12 11:12:12 [INFO] Running Time : 5ms
+2023-05-12 11:12:12 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=깅깅이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=16, memberEmail=bobdylan331@naver.com, memberPw=null, memberNickname=딩디이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=14, memberEmail=sefkje@navr.com, memberPw=null, memberNickname=딩럳, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=15, memberEmail=fejkf@naver.com, memberPw=null, memberNickname=강강공, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=17, memberEmail=qweqwe@naver.com, memberPw=null, memberNickname=esf, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=18, memberEmail=junsu930@naver.com, memberPw=null, memberNickname=딩동동, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2023-05-12 11:12:12 [INFO] End : MemberServiceImpl - selectAll
+---------------------------------------
+
+2023-05-12 11:12:12 [INFO] 후처리 수행
+2023-05-12 11:12:12 [INFO] View단 처리 완료 후 수행
+2023-05-12 11:12:18 [INFO] 50초마다 출력
+2023-05-12 11:12:22 [INFO] ---------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2023-05-12 11:12:22 [INFO] Running Time : 4ms
+2023-05-12 11:12:22 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=깅깅이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=16, memberEmail=bobdylan331@naver.com, memberPw=null, memberNickname=딩디이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=14, memberEmail=sefkje@navr.com, memberPw=null, memberNickname=딩럳, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=15, memberEmail=fejkf@naver.com, memberPw=null, memberNickname=강강공, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=17, memberEmail=qweqwe@naver.com, memberPw=null, memberNickname=esf, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=18, memberEmail=junsu930@naver.com, memberPw=null, memberNickname=딩동동, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2023-05-12 11:12:22 [INFO] End : MemberServiceImpl - selectAll
+---------------------------------------
+
+2023-05-12 11:12:22 [INFO] 후처리 수행
+2023-05-12 11:12:22 [INFO] View단 처리 완료 후 수행
+2023-05-12 11:12:32 [INFO] ---------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2023-05-12 11:12:32 [INFO] Running Time : 4ms
+2023-05-12 11:12:32 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=깅깅이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=16, memberEmail=bobdylan331@naver.com, memberPw=null, memberNickname=딩디이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=14, memberEmail=sefkje@navr.com, memberPw=null, memberNickname=딩럳, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=15, memberEmail=fejkf@naver.com, memberPw=null, memberNickname=강강공, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=17, memberEmail=qweqwe@naver.com, memberPw=null, memberNickname=esf, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=18, memberEmail=junsu930@naver.com, memberPw=null, memberNickname=딩동동, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2023-05-12 11:12:32 [INFO] End : MemberServiceImpl - selectAll
+---------------------------------------
+
+2023-05-12 11:12:32 [INFO] 후처리 수행
+2023-05-12 11:12:32 [INFO] View단 처리 완료 후 수행
+2023-05-12 11:12:42 [INFO] ---------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2023-05-12 11:12:42 [INFO] Running Time : 3ms
+2023-05-12 11:12:42 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=깅깅이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=16, memberEmail=bobdylan331@naver.com, memberPw=null, memberNickname=딩디이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=14, memberEmail=sefkje@navr.com, memberPw=null, memberNickname=딩럳, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=15, memberEmail=fejkf@naver.com, memberPw=null, memberNickname=강강공, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=17, memberEmail=qweqwe@naver.com, memberPw=null, memberNickname=esf, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=18, memberEmail=junsu930@naver.com, memberPw=null, memberNickname=딩동동, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2023-05-12 11:12:42 [INFO] End : MemberServiceImpl - selectAll
+---------------------------------------
+
+2023-05-12 11:12:42 [INFO] 후처리 수행
+2023-05-12 11:12:42 [INFO] View단 처리 완료 후 수행
+2023-05-12 11:12:52 [INFO] ---------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2023-05-12 11:12:52 [INFO] Running Time : 4ms
+2023-05-12 11:12:52 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=깅깅이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=16, memberEmail=bobdylan331@naver.com, memberPw=null, memberNickname=딩디이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=14, memberEmail=sefkje@navr.com, memberPw=null, memberNickname=딩럳, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=15, memberEmail=fejkf@naver.com, memberPw=null, memberNickname=강강공, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=17, memberEmail=qweqwe@naver.com, memberPw=null, memberNickname=esf, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=18, memberEmail=junsu930@naver.com, memberPw=null, memberNickname=딩동동, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2023-05-12 11:12:52 [INFO] End : MemberServiceImpl - selectAll
+---------------------------------------
+
+2023-05-12 11:12:52 [INFO] 후처리 수행
+2023-05-12 11:12:52 [INFO] View단 처리 완료 후 수행
+2023-05-12 11:13:00 [INFO] 0초다 크아~~
+2023-05-12 11:13:02 [INFO] ---------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2023-05-12 11:13:02 [INFO] Running Time : 8ms
+2023-05-12 11:13:02 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=깅깅이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=16, memberEmail=bobdylan331@naver.com, memberPw=null, memberNickname=딩디이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=14, memberEmail=sefkje@navr.com, memberPw=null, memberNickname=딩럳, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=15, memberEmail=fejkf@naver.com, memberPw=null, memberNickname=강강공, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=17, memberEmail=qweqwe@naver.com, memberPw=null, memberNickname=esf, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=18, memberEmail=junsu930@naver.com, memberPw=null, memberNickname=딩동동, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2023-05-12 11:13:02 [INFO] End : MemberServiceImpl - selectAll
+---------------------------------------
+
+2023-05-12 11:13:02 [INFO] 후처리 수행
+2023-05-12 11:13:02 [INFO] View단 처리 완료 후 수행
+2023-05-12 11:13:03 [INFO] 로그인 기능 수행됨
+2023-05-12 11:13:03 [INFO] ---------------------------------------
+Start : MemberServiceImpl - login
+Parameter : [Member(memberNo=0, memberEmail=test01@naver.com, memberPw=wnstn8307!, memberNickname=null, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+ip : 127.0.0.1
+2023-05-12 11:13:03 [DEBUG] wnstn8307! / $2a$10$WjfmMHp1fXZlfC5xYWFfJ.W2iwMRfRTCcQwsQgbo5U4EjPyakhvli
+2023-05-12 11:13:03 [INFO] Running Time : 234ms
+2023-05-12 11:13:03 [INFO] Return Value : Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=깅깅이, memberTel=01022030940, memberAddress=23008,, 인천 강화군 서도면 아차도길 103-2,, 이잉, profileImage=/resources/images/memberProfile/20230501094127_35989.jpg, enrollDate=2023-04-25 09:28:59, secessionFlag=null)
+2023-05-12 11:13:03 [INFO] End : MemberServiceImpl - login
+---------------------------------------
+
+2023-05-12 11:13:03 [INFO] 후처리 수행
+2023-05-12 11:13:03 [INFO] View단 처리 완료 후 수행
+2023-05-12 11:13:03 [INFO] 후처리 수행
+2023-05-12 11:13:03 [INFO] View단 처리 완료 후 수행
+2023-05-12 11:13:04 [INFO] ---------------------------------------
+Start : BoardServiceImpl - selectBoardList
+Parameter : [1, 1]
+ip : 127.0.0.1 (email : test01@naver.com)
+2023-05-12 11:13:05 [INFO] Running Time : 107ms
+2023-05-12 11:13:05 [INFO] Return Value : {pagination=Pagination [currentPage=1, listCount=0, limit=10, pageSize=10, maxPage=0, startPage=1, endPage=0, prevPage=1, nextPage=0], boardList=[]}
+2023-05-12 11:13:05 [INFO] End : BoardServiceImpl - selectBoardList
+---------------------------------------
+
+2023-05-12 11:13:05 [INFO] 후처리 수행
+2023-05-12 11:13:05 [INFO] View단 처리 완료 후 수행
+2023-05-12 11:13:06 [INFO] ---------------------------------------
+Start : BoardServiceImpl - selectBoardList
+Parameter : [1, 3]
+ip : 127.0.0.1 (email : test01@naver.com)
+2023-05-12 11:13:06 [INFO] Running Time : 14ms
+2023-05-12 11:13:06 [INFO] Return Value : {pagination=Pagination [currentPage=1, listCount=500, limit=10, pageSize=10, maxPage=50, startPage=1, endPage=10, prevPage=1, nextPage=11], boardList=[edu.kh.comm.board.model.vo.Board@213febbf, edu.kh.comm.board.model.vo.Board@798abce2, edu.kh.comm.board.model.vo.Board@66dd3618, edu.kh.comm.board.model.vo.Board@65de1def, edu.kh.comm.board.model.vo.Board@3be260f8, edu.kh.comm.board.model.vo.Board@17a3a6ca, edu.kh.comm.board.model.vo.Board@18413fd0, edu.kh.comm.board.model.vo.Board@de57852, edu.kh.comm.board.model.vo.Board@25283cb6, edu.kh.comm.board.model.vo.Board@2fb75b2f]}
+2023-05-12 11:13:06 [INFO] End : BoardServiceImpl - selectBoardList
+---------------------------------------
+
+2023-05-12 11:13:06 [INFO] 후처리 수행
+2023-05-12 11:13:06 [INFO] View단 처리 완료 후 수행
+2023-05-12 11:13:06 [INFO] ---------------------------------------
+Start : BoardServiceImpl - selectBoardDetail
+Parameter : [498]
+ip : 127.0.0.1 (email : test01@naver.com)
+2023-05-12 11:13:06 [INFO] Running Time : 16ms
+2023-05-12 11:13:06 [INFO] Return Value : edu.kh.comm.board.model.vo.BoardDetail@45c3d330
+2023-05-12 11:13:06 [INFO] End : BoardServiceImpl - selectBoardDetail
+---------------------------------------
+
+2023-05-12 11:13:06 [INFO] 후처리 수행
+2023-05-12 11:13:06 [INFO] View단 처리 완료 후 수행
+2023-05-12 11:13:06 [INFO] ---------------------------------------
+Start : ReplyServiceImpl - selectReplyList
+Parameter : [498]
+ip : 127.0.0.1 (email : test01@naver.com)
+2023-05-12 11:13:06 [INFO] Running Time : 32ms
+2023-05-12 11:13:06 [INFO] Return Value : []
+2023-05-12 11:13:06 [INFO] End : ReplyServiceImpl - selectReplyList
+---------------------------------------
+
+2023-05-12 11:13:06 [INFO] 후처리 수행
+2023-05-12 11:13:06 [INFO] View단 처리 완료 후 수행
+2023-05-12 11:13:08 [INFO] 50초마다 출력
+2023-05-12 11:13:58 [INFO] 50초마다 출력
+2023-05-12 11:14:00 [INFO] 0초다 크아~~
+2023-05-12 11:14:48 [INFO] 50초마다 출력
+2023-05-12 11:15:00 [INFO] 0초다 크아~~
+2023-05-12 11:15:38 [INFO] 50초마다 출력
+2023-05-12 11:16:00 [INFO] 0초다 크아~~
+2023-05-12 11:16:03 [INFO] 초기화 필터 파괴
+2023-05-12 11:16:08 [INFO] 초기화 필터 생성
+2023-05-12 11:16:11 [INFO] 50초마다 출력
+2023-05-12 11:16:48 [INFO] 초기화 필터 파괴
+2023-05-12 11:16:51 [INFO] 초기화 필터 생성
+2023-05-12 11:16:54 [INFO] 50초마다 출력
+2023-05-12 11:17:00 [INFO] 0초다 크아~~
+2023-05-12 11:17:01 [INFO] 초기화 필터 파괴
+2023-05-12 11:17:07 [INFO] 초기화 필터 생성
+2023-05-12 11:17:09 [INFO] 50초마다 출력
+2023-05-12 11:17:11 [INFO] ---------------------------------------
+Start : BoardServiceImpl - selectBoardType
+Parameter : []
+ip : 127.0.0.1
+2023-05-12 11:17:12 [INFO] Return Value : [edu.kh.comm.board.model.vo.BoardType@54f23554, edu.kh.comm.board.model.vo.BoardType@5682b0e1, edu.kh.comm.board.model.vo.BoardType@7c3c351d]
+2023-05-12 11:17:12 [INFO] Running Time : 1804ms
+2023-05-12 11:17:12 [INFO] End : BoardServiceImpl - selectBoardType
+---------------------------------------
+
+2023-05-12 11:17:12 [INFO] 후처리 수행
+2023-05-12 11:17:12 [INFO] View단 처리 완료 후 수행
+2023-05-12 11:17:13 [INFO] ---------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2023-05-12 11:17:13 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=깅깅이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=16, memberEmail=bobdylan331@naver.com, memberPw=null, memberNickname=딩디이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=14, memberEmail=sefkje@navr.com, memberPw=null, memberNickname=딩럳, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=15, memberEmail=fejkf@naver.com, memberPw=null, memberNickname=강강공, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=17, memberEmail=qweqwe@naver.com, memberPw=null, memberNickname=esf, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=18, memberEmail=junsu930@naver.com, memberPw=null, memberNickname=딩동동, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2023-05-12 11:17:13 [INFO] Running Time : 8ms
+2023-05-12 11:17:13 [INFO] End : MemberServiceImpl - selectAll
+---------------------------------------
+
+2023-05-12 11:17:13 [INFO] 후처리 수행
+2023-05-12 11:17:13 [INFO] View단 처리 완료 후 수행
+2023-05-12 11:17:23 [INFO] ---------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2023-05-12 11:17:23 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=깅깅이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=16, memberEmail=bobdylan331@naver.com, memberPw=null, memberNickname=딩디이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=14, memberEmail=sefkje@navr.com, memberPw=null, memberNickname=딩럳, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=15, memberEmail=fejkf@naver.com, memberPw=null, memberNickname=강강공, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=17, memberEmail=qweqwe@naver.com, memberPw=null, memberNickname=esf, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=18, memberEmail=junsu930@naver.com, memberPw=null, memberNickname=딩동동, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2023-05-12 11:17:23 [INFO] Running Time : 4ms
+2023-05-12 11:17:23 [INFO] End : MemberServiceImpl - selectAll
+---------------------------------------
+
+2023-05-12 11:17:23 [INFO] 후처리 수행
+2023-05-12 11:17:23 [INFO] View단 처리 완료 후 수행
+2023-05-12 11:17:33 [INFO] ---------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2023-05-12 11:17:33 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=깅깅이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=16, memberEmail=bobdylan331@naver.com, memberPw=null, memberNickname=딩디이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=14, memberEmail=sefkje@navr.com, memberPw=null, memberNickname=딩럳, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=15, memberEmail=fejkf@naver.com, memberPw=null, memberNickname=강강공, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=17, memberEmail=qweqwe@naver.com, memberPw=null, memberNickname=esf, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=18, memberEmail=junsu930@naver.com, memberPw=null, memberNickname=딩동동, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2023-05-12 11:17:33 [INFO] Running Time : 5ms
+2023-05-12 11:17:33 [INFO] End : MemberServiceImpl - selectAll
+---------------------------------------
+
+2023-05-12 11:17:33 [INFO] 후처리 수행
+2023-05-12 11:17:33 [INFO] View단 처리 완료 후 수행
+2023-05-12 11:17:33 [INFO] 초기화 필터 파괴
+2023-05-12 11:17:37 [INFO] 초기화 필터 생성
+2023-05-12 11:17:39 [INFO] 50초마다 출력
+2023-05-12 11:18:00 [INFO] 0초다 크아~~
+2023-05-12 11:18:29 [INFO] 50초마다 출력
+2023-05-12 11:19:00 [INFO] 0초다 크아~~
+2023-05-12 11:19:19 [INFO] 50초마다 출력
